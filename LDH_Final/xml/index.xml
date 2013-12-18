@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.5">
+  <compound refid="class_constantes" kind="class"><name>Constantes</name>
+    <member refid="class_constantes_1a7bef9819ff56fcd18505f64f06fee8ed" kind="variable"><name>tiempoSimulacion</name></member>
+    <member refid="class_constantes_1a35a4f31608538e7fb1f8abd5b87a7283" kind="variable"><name>cantidadCamas</name></member>
+    <member refid="class_constantes_1ad4ce9feb08ed227a1201268871807af9" kind="variable"><name>porLlegadas</name></member>
+    <member refid="class_constantes_1a164c02deb45777f1aca1dc62882ec3fd" kind="variable"><name>tiempoEnSistema</name></member>
+  </compound>
+  <compound refid="class_main" kind="class"><name>Main</name>
+    <member refid="class_main_1a8a5d0f827edddff706cc0e6740d0579a" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_modelo_hospital" kind="class"><name>ModeloHospital</name>
+    <member refid="class_modelo_hospital_1ad0cbe7f57f1733551b2bb33e1a90499a" kind="variable"><name>pacientesEsperando</name></member>
+    <member refid="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" kind="variable"><name>arribos</name></member>
+    <member refid="class_modelo_hospital_1ac2594297170d65562215179eae38e2a1" kind="variable"><name>estancias</name></member>
+    <member refid="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" kind="variable"><name>pacientesEmergencia</name></member>
+    <member refid="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" kind="variable"><name>arribosEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" kind="variable"><name>estanciaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a7976b96ea2a7a95f28b9ae175201b54d" kind="variable"><name>cantidadCamas</name></member>
+    <member refid="class_modelo_hospital_1a01a673aabc00aff4fa4efecf10e1c628" kind="variable"><name>mediaLlegadas</name></member>
+    <member refid="class_modelo_hospital_1a10dea35940463cb2f7b34e333ac799b9" kind="variable"><name>mediaEstancia</name></member>
+    <member refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" kind="variable"><name>camas</name></member>
+    <member refid="class_modelo_hospital_1a399104f28dff59862c839e754af5858b" kind="variable"><name>cantidadCamasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a8c82045a833cf70bce0e81b87e77d91a" kind="variable"><name>mediaLlegadasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a251f7d9ddab04b2fb1e9ff101b3a3354" kind="variable"><name>mediaEstanciaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" kind="variable"><name>camasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a561bc154e141c4dd9967b37968dfa296" kind="function"><name>ModeloHospital</name></member>
+    <member refid="class_modelo_hospital_1a4f87fdd61cdaff2ed5cbb85ea5fd6006" kind="function"><name>description</name></member>
+    <member refid="class_modelo_hospital_1a3e65c59d620077e3c95993d89840fe69" kind="function"><name>doInitialSchedules</name></member>
+    <member refid="class_modelo_hospital_1a7312f74eaa1d274a0e9d5a7a0d620a77" kind="function"><name>init</name></member>
+    <member refid="class_modelo_hospital_1a8dd16235e4f29badaf383670ee81fb36" kind="function"><name>hayCamasLibres</name></member>
+    <member refid="class_modelo_hospital_1aea16e0db18328c1e2bf7ec947739e7c6" kind="function"><name>tomarCama</name></member>
+    <member refid="class_modelo_hospital_1a8c0b523cdf04c197c6640fd950ae1e80" kind="function"><name>liberarCama</name></member>
+    <member refid="class_modelo_hospital_1a4ffee61b106d2d4539ca274b222b16b9" kind="function"><name>hayCamasLibresEmergencia</name></member>
+    <member refid="class_modelo_hospital_1aa0e95405391c5233eca6546b901d7a2a" kind="function"><name>tomarCamaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a74d6a9a51049b037452f5e49eae2875a" kind="function"><name>liberarCamaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1ac97694528846204ccc5ee68534a0f65f" kind="function"><name>getPacientesEsperando</name></member>
+    <member refid="class_modelo_hospital_1abcd57bd92be67fde1e5ef25c3b3dabdf" kind="function"><name>setPacientesEsperando</name></member>
+    <member refid="class_modelo_hospital_1aa7ad6fbccb39812fe5081161b78e257a" kind="function"><name>getCantidadCamas</name></member>
+    <member refid="class_modelo_hospital_1ad211f5b9b2f0ee6ebd709c80aa23e669" kind="function"><name>setCantidadCamas</name></member>
+    <member refid="class_modelo_hospital_1a34ca65cd3ad714da1507f122611248a1" kind="function"><name>getMediaLlegadas</name></member>
+    <member refid="class_modelo_hospital_1acd298010a3718db2ad6b058d56dcb4d6" kind="function"><name>setMediaLlegadas</name></member>
+    <member refid="class_modelo_hospital_1afd8faf7a57f7e48573f3dfe59e545f58" kind="function"><name>getMediaEstancia</name></member>
+    <member refid="class_modelo_hospital_1a013c12ed71bd90b9c2d791351a2c30bf" kind="function"><name>setMediaEstancia</name></member>
+    <member refid="class_modelo_hospital_1a690c485f67b47bd5fd89b47e8d9009b4" kind="function"><name>getArribos</name></member>
+    <member refid="class_modelo_hospital_1a098a0a42dd5f83aa727ca7bee606cada" kind="function"><name>setArribos</name></member>
+    <member refid="class_modelo_hospital_1a159d40ea87139a6f0797c998b4e66acf" kind="function"><name>getEstancias</name></member>
+    <member refid="class_modelo_hospital_1a162688bbf6cc7d6099777d24200094fb" kind="function"><name>setEstancias</name></member>
+    <member refid="class_modelo_hospital_1a7257e8bb34b52f399a0e1e5c990cd6db" kind="function"><name>getCamas</name></member>
+    <member refid="class_modelo_hospital_1acafb744c8543f81aa4a4f46c1dc4da68" kind="function"><name>setCamas</name></member>
+    <member refid="class_modelo_hospital_1a8e741a498c41cf7ab3c4edb3771df4c2" kind="function"><name>getPacientesEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a0089a647fb2d79610b9b577e60ec2c5c" kind="function"><name>setPacientesEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a32ad20b8cd00111e971a2e1fbd5e2846" kind="function"><name>getCantidadCamasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1ac5b372c3755661cb94d1697a272b6923" kind="function"><name>setCantidadCamasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a9c481c295b65b1f77afa1fe06b1b05ad" kind="function"><name>getMediaLlegadasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a8a9a80239c2d8b13c89e7202b8eb38f9" kind="function"><name>setMediaLlegadasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a6499bb304800ae18bec2f6dd62ba6ac3" kind="function"><name>getMediaEstanciaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a52dd26c1ab4bc8afd883c8f9617436f9" kind="function"><name>setMediaEstanciaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1aedeec1aa6b0808defec18d2896322222" kind="function"><name>getArribosEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a72adc5c0b478eb8ed58002a005d7f49f" kind="function"><name>setArribosEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a89f98296bc582af6df104c4e32a3b573" kind="function"><name>getEstanciaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a8ba5a635a30938fba92f3594f081c38c" kind="function"><name>setEstanciaEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a9edf287fe12a81a36d15685d0d18382e" kind="function"><name>getCamasEmergencia</name></member>
+    <member refid="class_modelo_hospital_1a0f817fd9a6d476436bc2dd2b960885b0" kind="function"><name>setCamasEmergencia</name></member>
+  </compound>
+  <compound refid="class_paciente" kind="class"><name>Paciente</name>
+    <member refid="class_paciente_1a3fcfcbed59d2868e9c98dcf6eae42ffa" kind="variable"><name>myModel</name></member>
+    <member refid="class_paciente_1aa05bc33a654eef666530777484f07604" kind="variable"><name>id</name></member>
+    <member refid="class_paciente_1a8723f0581634a743752975514669c29b" kind="function"><name>Paciente</name></member>
+    <member refid="class_paciente_1ac58de1ac716ab3f57e24b82a670c29d5" kind="function"><name>lifeCycle</name></member>
+  </compound>
+  <compound refid="class_paciente_emergencia" kind="class"><name>PacienteEmergencia</name>
+    <member refid="class_paciente_emergencia_1aa794154e926dda04cf083d8b2b60737c" kind="variable"><name>myModel</name></member>
+    <member refid="class_paciente_emergencia_1a1e71030a4d66cf7c5ad79743c67bc17f" kind="variable"><name>id</name></member>
+    <member refid="class_paciente_emergencia_1a570fc186959f4d2b2038f1f27f8fe75f" kind="function"><name>PacienteEmergencia</name></member>
+    <member refid="class_paciente_emergencia_1a445b55bb8a640deb5a80ea142969efa7" kind="function"><name>lifeCycle</name></member>
+  </compound>
+  <compound refid="class_pacientes" kind="class"><name>Pacientes</name>
+    <member refid="class_pacientes_1a1c200cce1f467a26e75d066e4df7c03e" kind="variable"><name>cuantos</name></member>
+    <member refid="class_pacientes_1a3399e04e5e886d3930d508506d53161f" kind="variable"><name>cuantosEmergencia</name></member>
+    <member refid="class_pacientes_1a2f08ee5c60134b53b77a5a33d33b4d01" kind="function"><name>eventRoutine</name></member>
+    <member refid="class_pacientes_1a63905a5dad4d77793f74da04b755a76e" kind="function"><name>Pacientes</name></member>
+  </compound>
+  <compound refid="class_prueba___hospital" kind="class"><name>Prueba_Hospital</name>
+    <member refid="class_prueba___hospital_1abc67c5fbf97377859e32016af18f289d" kind="function"><name>test</name></member>
+  </compound>
+  <compound refid="class_res_example" kind="class"><name>ResExample</name>
+    <member refid="class_res_example_1af5d10eb055705055d84e923b7af78924" kind="variable"><name>NUM_BERTHS</name></member>
+    <member refid="class_res_example_1a5dd6701ce69eb8525c5771430079449e" kind="variable"><name>ARRIVAL_RATE</name></member>
+    <member refid="class_res_example_1a52b5fda63f703a5cc9c5d3ab21129e51" kind="variable"><name>shipSizeStream</name></member>
+    <member refid="class_res_example_1a4c77343fea9c4a66ab2d6cf66dc93aa4" kind="variable"><name>shipsArrivalStream</name></member>
+    <member refid="class_res_example_1afbf5cfa48e22b4ec041cae67d8a37f6d" kind="variable"><name>serviceTimeStream</name></member>
+    <member refid="class_res_example_1a667185e2b38ec6481c488106aade45cb" kind="variable"><name>berths</name></member>
+    <member refid="class_res_example_1a2dcdaf535117c74d92c6fe97b255ec72" kind="function"><name>ResExample</name></member>
+    <member refid="class_res_example_1a85e7862ebe831403f3da8773ba734b98" kind="function"><name>description</name></member>
+    <member refid="class_res_example_1a3352131778a1ffb88f5fb1e300a1e0d5" kind="function"><name>init</name></member>
+    <member refid="class_res_example_1a4855a0db355d1c1d96aa5f96ba303f37" kind="function"><name>doInitialSchedules</name></member>
+    <member refid="class_res_example_1a7fabf49b9a1e22badd86d3d910382792" kind="function"><name>getServiceTime</name></member>
+    <member refid="class_res_example_1aa3f32e8d8ddbc582e6a3b7c2f890d935" kind="function"><name>getShipArrivalTime</name></member>
+    <member refid="class_res_example_1a0dbd04a235f2ecb12d2cb1f424cfc589" kind="function"><name>getShipSize</name></member>
+    <member refid="class_res_example_1a24f19749855594fbb1dd5e6363dfbd26" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_ship" kind="class"><name>Ship</name>
+    <member refid="class_ship_1ad820fe788a78a2b9e1c68b32c5596f79" kind="variable"><name>size</name></member>
+    <member refid="class_ship_1a8f3b6e601c7487a18699452dbdcf163c" kind="function"><name>Ship</name></member>
+    <member refid="class_ship_1a553ad1866574241a0d48d80cbdb7cf21" kind="function"><name>lifeCycle</name></member>
+  </compound>
+  <compound refid="class_ship_generator" kind="class"><name>ShipGenerator</name>
+    <member refid="class_ship_generator_1a0f5dd5eea4a965e376cdaa84109e7197" kind="function"><name>ShipGenerator</name></member>
+    <member refid="class_ship_generator_1a2a03df464499a472d8b385cfd2546f69" kind="function"><name>lifeCycle</name></member>
+  </compound>
+  <compound refid="namespacedesmoj_1_1core_1_1dist_1_1" kind="namespace"><name>desmoj::core::dist::</name>
+  </compound>
+  <compound refid="namespacedesmoj_1_1core_1_1simulator_1_1" kind="namespace"><name>desmoj::core::simulator::</name>
+  </compound>
+  <compound refid="namespaceorg_1_1junit_1_1_assert_1_1" kind="namespace"><name>org::junit::Assert::</name>
+  </compound>
+  <compound refid="_res_example_8java" kind="file"><name>ResExample.java</name>
+  </compound>
+  <compound refid="_ship_8java" kind="file"><name>Ship.java</name>
+  </compound>
+  <compound refid="_ship_generator_8java" kind="file"><name>ShipGenerator.java</name>
+  </compound>
+  <compound refid="_constantes_8java" kind="file"><name>Constantes.java</name>
+  </compound>
+  <compound refid="_main_8java" kind="file"><name>Main.java</name>
+  </compound>
+  <compound refid="_modelo_hospital_8java" kind="file"><name>ModeloHospital.java</name>
+  </compound>
+  <compound refid="_paciente_8java" kind="file"><name>Paciente.java</name>
+  </compound>
+  <compound refid="_paciente_emergencia_8java" kind="file"><name>PacienteEmergencia.java</name>
+  </compound>
+  <compound refid="_pacientes_8java" kind="file"><name>Pacientes.java</name>
+  </compound>
+  <compound refid="_prueba___hospital_8java" kind="file"><name>Prueba_Hospital.java</name>
+  </compound>
+  <compound refid="dir_d5eacbcd3f2930dd6398afebfc260246" kind="dir"><name>SimuladorBarco</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_eae6d5eaa1f37a7a28f59220c6dd200e" kind="dir"><name>SimuladorBarco/src</name>
+  </compound>
+</doxygenindex>

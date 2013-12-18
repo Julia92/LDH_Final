@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prueba___hospital" kind="class" prot="public">
+    <compoundname>Prueba_Hospital</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prueba___hospital_1abc67c5fbf97377859e32016af18f289d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prueba_Hospital.test</definition>
+        <argsstring>(ModeloHospital hospital)</argsstring>
+        <name>test</name>
+        <param>
+          <type><ref refid="class_modelo_hospital" kindref="compound">ModeloHospital</ref></type>
+          <declname>hospital</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Prueba_Hospital.java" line="8" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Prueba_Hospital.java" bodystart="8" bodyend="14"/>
+        <references refid="class_modelo_hospital_1a7257e8bb34b52f399a0e1e5c990cd6db" compoundref="_modelo_hospital_8java" startline="143" endline="145">ModeloHospital.getCamas</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Prueba_Hospital.java" line="6" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Prueba_Hospital.java" bodystart="6" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_prueba___hospital_1abc67c5fbf97377859e32016af18f289d" prot="public" virt="non-virtual"><scope>Prueba_Hospital</scope><name>test</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

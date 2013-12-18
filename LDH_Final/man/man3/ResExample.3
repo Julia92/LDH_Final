@@ -1,0 +1,127 @@
+.TH "ResExample" 3 "Wed Dec 18 2013" "Version 1.0" "LDH_Hospital_Desmoj" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ResExample \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBResExample\fP (Model owner, String name, boolean showInReport, boolean showIntrace)"
+.br
+.ti -1c
+.RI "String \fBdescription\fP ()"
+.br
+.ti -1c
+.RI "void \fBinit\fP ()"
+.br
+.ti -1c
+.RI "void \fBdoInitialSchedules\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String args[])"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "double \fBgetServiceTime\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetShipArrivalTime\fP ()"
+.br
+.ti -1c
+.RI "long \fBgetShipSize\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is the model class\&. It is the main class of a simple process-oriented model of the quay of a container terminal using resources to represent berths\&. It focuses on the allocation of berths (docking space at a quay) to incoming container ships\&. There are eight equal-sized berths on the quay in question\&. Every time a ship arrives it tries to allocate one, two, or three of these berths depending on its size\&. If there is enough space available, the container ship docks and starts unloading its freight\&. Otherwise, it has to wait in a queue until other ships leave the port and free the occupied berths\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Olaf Neidhardt, Ruth Meyer 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ResExample\&.ResExample (Modelowner, Stringname, booleanshowInReport, booleanshowIntrace)"
+\fBResExample\fP constructor\&.
+.PP
+Creates a new \fBResExample\fP model via calling the constructor of the superclass\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIowner\fP the model this model is part of (set to \fCnull\fP when there is no such model) 
+.br
+\fImodelName\fP this model's name 
+.br
+\fIshowInReport\fP flag to indicate if this model shall produce output to the report file 
+.br
+\fIshowInTrace\fP flag to indicate if this model shall produce output to the trace file 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "String ResExample\&.description ()"
+returns a description of the model to be used in the report\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+model description as a string 
+.RE
+.PP
+
+.SS "void ResExample\&.doInitialSchedules ()"
+activates dynamic model components (simulation processes)\&.
+.PP
+This method is used to place all events or processes on the internal event list of the simulator which are necessary to start the simulation\&.
+.PP
+In this case, only the ship generator has to be created and activated\&. 
+.SS "double ResExample\&.getServiceTime ()\fC [protected]\fP"
+Returns a time span for the service time of a ship Stream is set to NONNEGATIVE=TRUE 
+.PP
+\fBReturns:\fP
+.RS 4
+double 
+.RE
+.PP
+
+.SS "double ResExample\&.getShipArrivalTime ()\fC [protected]\fP"
+Returns a time span for the next interarrival time of a ship Stream is set to NONNEGATIVE=TRUE 
+.PP
+\fBReturns:\fP
+.RS 4
+double 
+.RE
+.PP
+
+.SS "long ResExample\&.getShipSize ()\fC [protected]\fP"
+Returns the size of a ship in number of berths needed 
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.SS "void ResExample\&.init ()"
+initialises static model components like distributions and queues\&. 
+.SS "static void ResExample\&.main (Stringargs[])\fC [static]\fP"
+run the model 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LDH_Hospital_Desmoj from the source code\&.

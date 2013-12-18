@@ -10,7 +10,8 @@ public class Main {
 		double b[] = {60,60};
 		int c[] = {20,20};
 		ModeloHospital hospital = new ModeloHospital(null, a, b, c, true, true);
-		
+		Prueba_Hospital prueba = new Prueba_Hospital();
+		prueba.test(hospital);
 		//Crear un hospital
 		Experiment experimento = new Experiment("HospitalSimple");
 		

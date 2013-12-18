@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_constantes" kind="class" prot="public">
+    <compoundname>Constantes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_constantes_1a7bef9819ff56fcd18505f64f06fee8ed" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Constantes.tiempoSimulacion</definition>
+        <argsstring></argsstring>
+        <name>tiempoSimulacion</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" line="3" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_constantes_1a35a4f31608538e7fb1f8abd5b87a7283" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Constantes.cantidadCamas[]</definition>
+        <argsstring>[]</argsstring>
+        <name>cantidadCamas</name>
+        <initializer>= {10, 5}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" line="5" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_constantes_1ad4ce9feb08ed227a1201268871807af9" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Constantes.porLlegadas[]</definition>
+        <argsstring>[]</argsstring>
+        <name>porLlegadas</name>
+        <initializer>= {6, 3}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" line="6" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_constantes_1a164c02deb45777f1aca1dc62882ec3fd" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Constantes.tiempoEnSistema[]</definition>
+        <argsstring>[]</argsstring>
+        <name>tiempoEnSistema</name>
+        <initializer>= {60, 60}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" line="7" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" line="2" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java" bodystart="2" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_constantes_1a35a4f31608538e7fb1f8abd5b87a7283" prot="public" virt="non-virtual"><scope>Constantes</scope><name>cantidadCamas</name></member>
+      <member refid="class_constantes_1ad4ce9feb08ed227a1201268871807af9" prot="public" virt="non-virtual"><scope>Constantes</scope><name>porLlegadas</name></member>
+      <member refid="class_constantes_1a164c02deb45777f1aca1dc62882ec3fd" prot="public" virt="non-virtual"><scope>Constantes</scope><name>tiempoEnSistema</name></member>
+      <member refid="class_constantes_1a7bef9819ff56fcd18505f64f06fee8ed" prot="public" virt="non-virtual"><scope>Constantes</scope><name>tiempoSimulacion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

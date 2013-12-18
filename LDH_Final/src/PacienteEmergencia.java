@@ -23,10 +23,10 @@ public class PacienteEmergencia extends SimProcess {
 		}
 		myModel.tomarCama();
 		sendTraceNote("El paciente " + id + "tomo una cama en Emergencias.");
-			hold(new TimeSpan(myModel.estancias.sample()));
+			hold(new TimeSpan(myModel.estanciaEmergencia.sample()));
 			myModel.liberarCamaEmergencia();
-			if (myModel.pacientesEsperando.length() > 0) {
-				PacienteEmergencia pacienteEmergencia = (PacienteEmergencia) myModel.pacientesEsperando.first();
+			if (myModel.pacientesEmergencia.length() > 0) {
+				PacienteEmergencia pacienteEmergencia = (PacienteEmergencia) myModel.pacientesEmergencia.first();
 				myModel.pacientesEmergencia.remove(pacienteEmergencia);
 				pacienteEmergencia.activateAfter(this);
 			}

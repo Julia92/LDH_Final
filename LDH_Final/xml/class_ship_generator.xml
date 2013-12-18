@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_ship_generator" kind="class" prot="public">
+    <compoundname>ShipGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SimProcess</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ship_generator_1a0f5dd5eea4a965e376cdaa84109e7197" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShipGenerator.ShipGenerator</definition>
+        <argsstring>(Model owner, String name, boolean showInTrace)</argsstring>
+        <name>ShipGenerator</name>
+        <param>
+          <type>Model</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInTrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new ship generator process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the model this ship generator belongs to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this ship generator&apos;s name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showInTrace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag to indicate if this process shall produce output for the trace </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ShipGenerator.java" line="23" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ShipGenerator.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ship_generator_1a2a03df464499a472d8b385cfd2546f69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShipGenerator.lifeCycle</definition>
+        <argsstring>()</argsstring>
+        <name>lifeCycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describes this process&apos;s life cycle: continually generate new ships. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ShipGenerator.java" line="29" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ShipGenerator.java" bodystart="29" bodyend="43"/>
+        <references refid="class_res_example_1aa3f32e8d8ddbc582e6a3b7c2f890d935" compoundref="_res_example_8java" startline="117" endline="120">ResExample.getShipArrivalTime</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represents a process source, which continually generates ships in order to keep the simulation running.</para><para>It will create a new ship, activate it (so that it arrives at the quai) and then wait until the next ship arrival is due. <simplesect kind="author"><para>Ruth Meyer </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="89">
+        <label>SimProcess</label>
+      </node>
+      <node id="88">
+        <label>ShipGenerator</label>
+        <link refid="class_ship_generator"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="91">
+        <label>SimProcess</label>
+      </node>
+      <node id="90">
+        <label>ShipGenerator</label>
+        <link refid="class_ship_generator"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ShipGenerator.java" line="15" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ShipGenerator.java" bodystart="15" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_ship_generator_1a2a03df464499a472d8b385cfd2546f69" prot="public" virt="non-virtual"><scope>ShipGenerator</scope><name>lifeCycle</name></member>
+      <member refid="class_ship_generator_1a0f5dd5eea4a965e376cdaa84109e7197" prot="public" virt="non-virtual"><scope>ShipGenerator</scope><name>ShipGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

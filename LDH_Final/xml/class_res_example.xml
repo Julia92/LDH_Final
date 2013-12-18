@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_res_example" kind="class" prot="public">
+    <compoundname>ResExample</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_res_example_1af5d10eb055705055d84e923b7af78924" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ResExample.NUM_BERTHS</definition>
+        <argsstring></argsstring>
+        <name>NUM_BERTHS</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>model parameter: the number of berths at the quay </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="22" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_res_example_1a5dd6701ce69eb8525c5771430079449e" prot="package" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double ResExample.ARRIVAL_RATE</definition>
+        <argsstring></argsstring>
+        <name>ARRIVAL_RATE</name>
+        <initializer>= 3.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>model parameter: the arrival rate of ships </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="25" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_res_example_1a52b5fda63f703a5cc9c5d3ab21129e51" prot="package" static="no" mutable="no">
+        <type>DiscreteDistUniform</type>
+        <definition>DiscreteDistUniform ResExample.shipSizeStream</definition>
+        <argsstring></argsstring>
+        <name>shipSizeStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A random number stream for the size of the container ships </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="28" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_res_example_1a4c77343fea9c4a66ab2d6cf66dc93aa4" prot="package" static="no" mutable="no">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ResExample.shipsArrivalStream</definition>
+        <argsstring></argsstring>
+        <name>shipsArrivalStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A random number stream for the inter-arrival times of ships </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="31" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_res_example_1afbf5cfa48e22b4ec041cae67d8a37f6d" prot="package" static="no" mutable="no">
+        <type>ContDistNormal</type>
+        <definition>ContDistNormal ResExample.serviceTimeStream</definition>
+        <argsstring></argsstring>
+        <name>serviceTimeStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A random number stream for the service duration (time needed for unloading at one berth) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="35" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_res_example_1a667185e2b38ec6481c488106aade45cb" prot="package" static="no" mutable="no">
+        <type>Res</type>
+        <definition>Res ResExample.berths</definition>
+        <argsstring></argsstring>
+        <name>berths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A Res construct used to model the berths </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="38" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_res_example_1a2dcdaf535117c74d92c6fe97b255ec72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ResExample.ResExample</definition>
+        <argsstring>(Model owner, String name, boolean showInReport, boolean showIntrace)</argsstring>
+        <name>ResExample</name>
+        <param>
+          <type>Model</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInReport</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showIntrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_res_example" kindref="compound">ResExample</ref> constructor.</para><para>Creates a new <ref refid="class_res_example" kindref="compound">ResExample</ref> model via calling the constructor of the superclass.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the model this model is part of (set to <computeroutput>null</computeroutput> when there is no such model) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>modelName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this model&apos;s name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showInReport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag to indicate if this model shall produce output to the report file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showInTrace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag to indicate if this model shall produce output to the trace file </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="51" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_res_example_1a85e7862ebe831403f3da8773ba734b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ResExample.description</definition>
+        <argsstring>()</argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns a description of the model to be used in the report. <simplesect kind="return"><para>model description as a string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="61" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="61" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_res_example_1a3352131778a1ffb88f5fb1e300a1e0d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResExample.init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialises static model components like distributions and queues. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="73" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="73" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_res_example_1a4855a0db355d1c1d96aa5f96ba303f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResExample.doInitialSchedules</definition>
+        <argsstring>()</argsstring>
+        <name>doInitialSchedules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>activates dynamic model components (simulation processes).</para><para>This method is used to place all events or processes on the internal event list of the simulator which are necessary to start the simulation.</para><para>In this case, only the ship generator has to be created and activated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="98" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="98" bodyend="100"/>
+        <references refid="class_res_example_1aa3f32e8d8ddbc582e6a3b7c2f890d935" compoundref="_res_example_8java" startline="117" endline="120">getShipArrivalTime</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_res_example_1a7fabf49b9a1e22badd86d3d910382792" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ResExample.getServiceTime</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a time span for the service time of a ship Stream is set to NONNEGATIVE=TRUE <simplesect kind="return"><para>double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="107" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_res_example_1aa3f32e8d8ddbc582e6a3b7c2f890d935" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ResExample.getShipArrivalTime</definition>
+        <argsstring>()</argsstring>
+        <name>getShipArrivalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a time span for the next interarrival time of a ship Stream is set to NONNEGATIVE=TRUE <simplesect kind="return"><para>double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="117" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_res_example_1a0dbd04a235f2ecb12d2cb1f424cfc589" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long ResExample.getShipSize</definition>
+        <argsstring>()</argsstring>
+        <name>getShipSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the size of a ship in number of berths needed <simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="126" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="126" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_res_example_1a24f19749855594fbb1dd5e6363dfbd26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ResExample.main</definition>
+        <argsstring>(String args[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>String</type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>run the model </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="132" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="132" bodyend="160"/>
+        <references refid="class_res_example_1a2dcdaf535117c74d92c6fe97b255ec72" compoundref="_res_example_8java" startline="51" endline="55">ResExample</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the model class. It is the main class of a simple process-oriented model of the quay of a container terminal using resources to represent berths. It focuses on the allocation of berths (docking space at a quay) to incoming container ships. There are eight equal-sized berths on the quay in question. Every time a ship arrives it tries to allocate one, two, or three of these berths depending on its size. If there is enough space available, the container ship docks and starts unloading its freight. Otherwise, it has to wait in a queue until other ships leave the port and free the occupied berths. <simplesect kind="author"><para>Olaf Neidhardt, Ruth Meyer </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="78">
+        <label>ResExample</label>
+        <link refid="class_res_example"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>ContDistExponential</label>
+      </node>
+      <node id="80">
+        <label>ResExample</label>
+        <link refid="class_res_example"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>berths</edgelabel>
+        </childnode>
+        <childnode refid="83" relation="usage">
+          <edgelabel>shipsArrivalStream</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>Res</label>
+      </node>
+      <node id="81">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" line="19" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/ResExample.java" bodystart="19" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_res_example_1a5dd6701ce69eb8525c5771430079449e" prot="package" virt="non-virtual"><scope>ResExample</scope><name>ARRIVAL_RATE</name></member>
+      <member refid="class_res_example_1a667185e2b38ec6481c488106aade45cb" prot="package" virt="non-virtual"><scope>ResExample</scope><name>berths</name></member>
+      <member refid="class_res_example_1a85e7862ebe831403f3da8773ba734b98" prot="public" virt="non-virtual"><scope>ResExample</scope><name>description</name></member>
+      <member refid="class_res_example_1a4855a0db355d1c1d96aa5f96ba303f37" prot="public" virt="non-virtual"><scope>ResExample</scope><name>doInitialSchedules</name></member>
+      <member refid="class_res_example_1a7fabf49b9a1e22badd86d3d910382792" prot="protected" virt="non-virtual"><scope>ResExample</scope><name>getServiceTime</name></member>
+      <member refid="class_res_example_1aa3f32e8d8ddbc582e6a3b7c2f890d935" prot="protected" virt="non-virtual"><scope>ResExample</scope><name>getShipArrivalTime</name></member>
+      <member refid="class_res_example_1a0dbd04a235f2ecb12d2cb1f424cfc589" prot="protected" virt="non-virtual"><scope>ResExample</scope><name>getShipSize</name></member>
+      <member refid="class_res_example_1a3352131778a1ffb88f5fb1e300a1e0d5" prot="public" virt="non-virtual"><scope>ResExample</scope><name>init</name></member>
+      <member refid="class_res_example_1a24f19749855594fbb1dd5e6363dfbd26" prot="public" virt="non-virtual"><scope>ResExample</scope><name>main</name></member>
+      <member refid="class_res_example_1af5d10eb055705055d84e923b7af78924" prot="package" virt="non-virtual"><scope>ResExample</scope><name>NUM_BERTHS</name></member>
+      <member refid="class_res_example_1a2dcdaf535117c74d92c6fe97b255ec72" prot="public" virt="non-virtual"><scope>ResExample</scope><name>ResExample</name></member>
+      <member refid="class_res_example_1afbf5cfa48e22b4ec041cae67d8a37f6d" prot="package" virt="non-virtual"><scope>ResExample</scope><name>serviceTimeStream</name></member>
+      <member refid="class_res_example_1a4c77343fea9c4a66ab2d6cf66dc93aa4" prot="package" virt="non-virtual"><scope>ResExample</scope><name>shipsArrivalStream</name></member>
+      <member refid="class_res_example_1a52b5fda63f703a5cc9c5d3ab21129e51" prot="package" virt="non-virtual"><scope>ResExample</scope><name>shipSizeStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

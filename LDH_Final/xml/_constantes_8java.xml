@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_constantes_8java" kind="file">
+    <compoundname>Constantes.java</compoundname>
+    <innerclass refid="class_constantes" prot="public">Constantes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="class_constantes" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_constantes" kindref="compound">Constantes</ref><sp/>{</highlight></codeline>
+<codeline lineno="3" refid="class_constantes_1a7bef9819ff56fcd18505f64f06fee8ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_constantes_1a7bef9819ff56fcd18505f64f06fee8ed" kindref="member">tiempoSimulacion</ref><sp/>=<sp/>1000;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//vectores<sp/>{normal,<sp/>Emergencia};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_constantes_1a35a4f31608538e7fb1f8abd5b87a7283" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_constantes_1a35a4f31608538e7fb1f8abd5b87a7283" kindref="member">cantidadCamas</ref>[]<sp/>=<sp/>{10,<sp/>5};</highlight></codeline>
+<codeline lineno="6" refid="class_constantes_1ad4ce9feb08ed227a1201268871807af9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_constantes_1ad4ce9feb08ed227a1201268871807af9" kindref="member">porLlegadas</ref>[]<sp/>=<sp/>{6,<sp/>3};</highlight></codeline>
+<codeline lineno="7" refid="class_constantes_1a164c02deb45777f1aca1dc62882ec3fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_constantes_1a164c02deb45777f1aca1dc62882ec3fd" kindref="member">tiempoEnSistema</ref>[]<sp/>=<sp/>{60,<sp/>60};</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Constantes.java"/>
+  </compounddef>
+</doxygen>

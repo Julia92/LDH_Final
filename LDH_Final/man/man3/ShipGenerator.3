@@ -1,0 +1,55 @@
+.TH "ShipGenerator" 3 "Wed Dec 18 2013" "Version 1.0" "LDH_Hospital_Desmoj" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ShipGenerator \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits SimProcess\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBShipGenerator\fP (Model owner, String name, boolean showInTrace)"
+.br
+.ti -1c
+.RI "void \fBlifeCycle\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class represents a process source, which continually generates ships in order to keep the simulation running\&.
+.PP
+It will create a new ship, activate it (so that it arrives at the quai) and then wait until the next ship arrival is due\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Ruth Meyer 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ShipGenerator\&.ShipGenerator (Modelowner, Stringname, booleanshowInTrace)"
+Constructs a new ship generator process\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIowner\fP the model this ship generator belongs to 
+.br
+\fIname\fP this ship generator's name 
+.br
+\fIshowInTrace\fP flag to indicate if this process shall produce output for the trace 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void ShipGenerator\&.lifeCycle ()"
+Describes this process's life cycle: continually generate new ships\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LDH_Hospital_Desmoj from the source code\&.

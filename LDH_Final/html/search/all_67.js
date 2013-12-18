@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['getarribos',['getArribos',['../class_modelo_hospital.html#a690c485f67b47bd5fd89b47e8d9009b4',1,'ModeloHospital']]],
+  ['getarribosemergencia',['getArribosEmergencia',['../class_modelo_hospital.html#aedeec1aa6b0808defec18d2896322222',1,'ModeloHospital']]],
+  ['getcamas',['getCamas',['../class_modelo_hospital.html#a7257e8bb34b52f399a0e1e5c990cd6db',1,'ModeloHospital']]],
+  ['getcamasemergencia',['getCamasEmergencia',['../class_modelo_hospital.html#a9edf287fe12a81a36d15685d0d18382e',1,'ModeloHospital']]],
+  ['getcantidadcamas',['getCantidadCamas',['../class_modelo_hospital.html#aa7ad6fbccb39812fe5081161b78e257a',1,'ModeloHospital']]],
+  ['getcantidadcamasemergencia',['getCantidadCamasEmergencia',['../class_modelo_hospital.html#a32ad20b8cd00111e971a2e1fbd5e2846',1,'ModeloHospital']]],
+  ['getestanciaemergencia',['getEstanciaEmergencia',['../class_modelo_hospital.html#a89f98296bc582af6df104c4e32a3b573',1,'ModeloHospital']]],
+  ['getestancias',['getEstancias',['../class_modelo_hospital.html#a159d40ea87139a6f0797c998b4e66acf',1,'ModeloHospital']]],
+  ['getmediaestancia',['getMediaEstancia',['../class_modelo_hospital.html#afd8faf7a57f7e48573f3dfe59e545f58',1,'ModeloHospital']]],
+  ['getmediaestanciaemergencia',['getMediaEstanciaEmergencia',['../class_modelo_hospital.html#a6499bb304800ae18bec2f6dd62ba6ac3',1,'ModeloHospital']]],
+  ['getmediallegadas',['getMediaLlegadas',['../class_modelo_hospital.html#a34ca65cd3ad714da1507f122611248a1',1,'ModeloHospital']]],
+  ['getmediallegadasemergencia',['getMediaLlegadasEmergencia',['../class_modelo_hospital.html#a9c481c295b65b1f77afa1fe06b1b05ad',1,'ModeloHospital']]],
+  ['getpacientesemergencia',['getPacientesEmergencia',['../class_modelo_hospital.html#a8e741a498c41cf7ab3c4edb3771df4c2',1,'ModeloHospital']]],
+  ['getpacientesesperando',['getPacientesEsperando',['../class_modelo_hospital.html#ac97694528846204ccc5ee68534a0f65f',1,'ModeloHospital']]],
+  ['getservicetime',['getServiceTime',['../class_res_example.html#a7fabf49b9a1e22badd86d3d910382792',1,'ResExample']]],
+  ['getshiparrivaltime',['getShipArrivalTime',['../class_res_example.html#aa3f32e8d8ddbc582e6a3b7c2f890d935',1,'ResExample']]],
+  ['getshipsize',['getShipSize',['../class_res_example.html#a0dbd04a235f2ecb12d2cb1f424cfc589',1,'ResExample']]]
+];

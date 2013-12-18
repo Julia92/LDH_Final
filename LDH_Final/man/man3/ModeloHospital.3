@@ -1,0 +1,292 @@
+.TH "ModeloHospital" 3 "Wed Dec 18 2013" "Version 1.0" "LDH_Hospital_Desmoj" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ModeloHospital \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBModeloHospital\fP (Model owner, double \fBmediaLlegadas\fP[], double \fBmediaEstancia\fP[], int \fBcantidadCamas\fP[], boolean showInReport, boolean showInTrace)"
+.br
+.ti -1c
+.RI "String \fBdescription\fP ()"
+.br
+.ti -1c
+.RI "void \fBdoInitialSchedules\fP ()"
+.br
+.ti -1c
+.RI "void \fBinit\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBhayCamasLibres\fP ()"
+.br
+.ti -1c
+.RI "void \fBtomarCama\fP ()"
+.br
+.ti -1c
+.RI "void \fBliberarCama\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBhayCamasLibresEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBtomarCamaEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBliberarCamaEmergencia\fP ()"
+.br
+.ti -1c
+.RI "ProcessQueue \fBgetPacientesEsperando\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPacientesEsperando\fP (ProcessQueue \fBpacientesEsperando\fP)"
+.br
+.ti -1c
+.RI "int \fBgetCantidadCamas\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCantidadCamas\fP (int \fBcantidadCamas\fP)"
+.br
+.ti -1c
+.RI "double \fBgetMediaLlegadas\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMediaLlegadas\fP (double \fBmediaLlegadas\fP)"
+.br
+.ti -1c
+.RI "double \fBgetMediaEstancia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMediaEstancia\fP (double \fBmediaEstancia\fP)"
+.br
+.ti -1c
+.RI "ContDistExponential \fBgetArribos\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetArribos\fP (ContDistExponential \fBarribos\fP)"
+.br
+.ti -1c
+.RI "ContDistExponential \fBgetEstancias\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetEstancias\fP (ContDistExponential \fBestancias\fP)"
+.br
+.ti -1c
+.RI "int \fBgetCamas\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCamas\fP (int \fBcamas\fP)"
+.br
+.ti -1c
+.RI "ProcessQueue \fBgetPacientesEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPacientesEmergencia\fP (ProcessQueue \fBpacientesEmergencia\fP)"
+.br
+.ti -1c
+.RI "int \fBgetCantidadCamasEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCantidadCamasEmergencia\fP (int \fBcantidadCamasEmergencia\fP)"
+.br
+.ti -1c
+.RI "double \fBgetMediaLlegadasEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMediaLlegadasEmergencia\fP (double \fBmediaLlegadasEmergencia\fP)"
+.br
+.ti -1c
+.RI "double \fBgetMediaEstanciaEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMediaEstanciaEmergencia\fP (double \fBmediaEstanciaEmergencia\fP)"
+.br
+.ti -1c
+.RI "ContDistExponential \fBgetArribosEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetArribosEmergencia\fP (ContDistExponential \fBarribosEmergencia\fP)"
+.br
+.ti -1c
+.RI "ContDistExponential \fBgetEstanciaEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetEstanciaEmergencia\fP (ContDistExponential \fBestanciaEmergencia\fP)"
+.br
+.ti -1c
+.RI "int \fBgetCamasEmergencia\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCamasEmergencia\fP (int \fBcamasEmergencia\fP)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "ProcessQueue \fBpacientesEsperando\fP"
+.br
+.ti -1c
+.RI "ContDistExponential \fBarribos\fP"
+.br
+.ti -1c
+.RI "ContDistExponential \fBestancias\fP"
+.br
+.ti -1c
+.RI "ProcessQueue \fBpacientesEmergencia\fP"
+.br
+.ti -1c
+.RI "ContDistExponential \fBarribosEmergencia\fP"
+.br
+.ti -1c
+.RI "ContDistExponential \fBestanciaEmergencia\fP"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBcantidadCamas\fP"
+.br
+.ti -1c
+.RI "double \fBmediaLlegadas\fP"
+.br
+.ti -1c
+.RI "double \fBmediaEstancia\fP"
+.br
+.ti -1c
+.RI "int \fBcamas\fP"
+.br
+.ti -1c
+.RI "int \fBcantidadCamasEmergencia\fP"
+.br
+.ti -1c
+.RI "double \fBmediaLlegadasEmergencia\fP"
+.br
+.ti -1c
+.RI "double \fBmediaEstanciaEmergencia\fP"
+.br
+.ti -1c
+.RI "int \fBcamasEmergencia\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ModeloHospital\&.ModeloHospital (Modelowner, doublemediaLlegadas[], doublemediaEstancia[], intcantidadCamas[], booleanshowInReport, booleanshowInTrace)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "String ModeloHospital\&.description ()"
+
+.SS "void ModeloHospital\&.doInitialSchedules ()"
+
+.SS "ContDistExponential ModeloHospital\&.getArribos ()"
+
+.SS "ContDistExponential ModeloHospital\&.getArribosEmergencia ()"
+
+.SS "int ModeloHospital\&.getCamas ()"
+
+.SS "int ModeloHospital\&.getCamasEmergencia ()"
+
+.SS "int ModeloHospital\&.getCantidadCamas ()"
+
+.SS "int ModeloHospital\&.getCantidadCamasEmergencia ()"
+
+.SS "ContDistExponential ModeloHospital\&.getEstanciaEmergencia ()"
+
+.SS "ContDistExponential ModeloHospital\&.getEstancias ()"
+
+.SS "double ModeloHospital\&.getMediaEstancia ()"
+
+.SS "double ModeloHospital\&.getMediaEstanciaEmergencia ()"
+
+.SS "double ModeloHospital\&.getMediaLlegadas ()"
+
+.SS "double ModeloHospital\&.getMediaLlegadasEmergencia ()"
+
+.SS "ProcessQueue ModeloHospital\&.getPacientesEmergencia ()"
+
+.SS "ProcessQueue ModeloHospital\&.getPacientesEsperando ()"
+
+.SS "boolean ModeloHospital\&.hayCamasLibres ()"
+
+.SS "boolean ModeloHospital\&.hayCamasLibresEmergencia ()"
+
+.SS "void ModeloHospital\&.init ()"
+
+.SS "void ModeloHospital\&.liberarCama ()"
+
+.SS "void ModeloHospital\&.liberarCamaEmergencia ()"
+
+.SS "void ModeloHospital\&.setArribos (ContDistExponentialarribos)"
+
+.SS "void ModeloHospital\&.setArribosEmergencia (ContDistExponentialarribosEmergencia)"
+
+.SS "void ModeloHospital\&.setCamas (intcamas)"
+
+.SS "void ModeloHospital\&.setCamasEmergencia (intcamasEmergencia)"
+
+.SS "void ModeloHospital\&.setCantidadCamas (intcantidadCamas)"
+
+.SS "void ModeloHospital\&.setCantidadCamasEmergencia (intcantidadCamasEmergencia)"
+
+.SS "void ModeloHospital\&.setEstanciaEmergencia (ContDistExponentialestanciaEmergencia)"
+
+.SS "void ModeloHospital\&.setEstancias (ContDistExponentialestancias)"
+
+.SS "void ModeloHospital\&.setMediaEstancia (doublemediaEstancia)"
+
+.SS "void ModeloHospital\&.setMediaEstanciaEmergencia (doublemediaEstanciaEmergencia)"
+
+.SS "void ModeloHospital\&.setMediaLlegadas (doublemediaLlegadas)"
+
+.SS "void ModeloHospital\&.setMediaLlegadasEmergencia (doublemediaLlegadasEmergencia)"
+
+.SS "void ModeloHospital\&.setPacientesEmergencia (ProcessQueuepacientesEmergencia)"
+
+.SS "void ModeloHospital\&.setPacientesEsperando (ProcessQueuepacientesEsperando)"
+
+.SS "void ModeloHospital\&.tomarCama ()"
+
+.SS "void ModeloHospital\&.tomarCamaEmergencia ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "ContDistExponential ModeloHospital\&.arribos"
+
+.SS "ContDistExponential ModeloHospital\&.arribosEmergencia"
+
+.SS "int ModeloHospital\&.camas\fC [private]\fP"
+
+.SS "int ModeloHospital\&.camasEmergencia\fC [private]\fP"
+
+.SS "int ModeloHospital\&.cantidadCamas\fC [private]\fP"
+
+.SS "int ModeloHospital\&.cantidadCamasEmergencia\fC [private]\fP"
+
+.SS "ContDistExponential ModeloHospital\&.estanciaEmergencia"
+
+.SS "ContDistExponential ModeloHospital\&.estancias"
+
+.SS "double ModeloHospital\&.mediaEstancia\fC [private]\fP"
+
+.SS "double ModeloHospital\&.mediaEstanciaEmergencia\fC [private]\fP"
+
+.SS "double ModeloHospital\&.mediaLlegadas\fC [private]\fP"
+
+.SS "double ModeloHospital\&.mediaLlegadasEmergencia\fC [private]\fP"
+
+.SS "ProcessQueue ModeloHospital\&.pacientesEmergencia"
+
+.SS "ProcessQueue ModeloHospital\&.pacientesEsperando"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LDH_Hospital_Desmoj from the source code\&.

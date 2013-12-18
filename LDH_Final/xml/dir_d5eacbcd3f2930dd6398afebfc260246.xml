@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_d5eacbcd3f2930dd6398afebfc260246" kind="dir">
+    <compoundname>SimuladorBarco</compoundname>
+    <innerdir refid="dir_eae6d5eaa1f37a7a28f59220c6dd200e">SimuladorBarco/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/"/>
+  </compounddef>
+</doxygen>

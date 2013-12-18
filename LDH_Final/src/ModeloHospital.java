@@ -91,4 +91,116 @@ public class ModeloHospital extends Model {
 		System.out.println("Dejando una cama de emergencia");
 		camasEmergencia++;
 	}
+
+	public ProcessQueue getPacientesEsperando() {
+		return pacientesEsperando;
+	}
+
+	public void setPacientesEsperando(ProcessQueue pacientesEsperando) {
+		this.pacientesEsperando = pacientesEsperando;
+	}
+
+	public int getCantidadCamas() {
+		return cantidadCamas;
+	}
+
+	public void setCantidadCamas(int cantidadCamas) {
+		this.cantidadCamas = cantidadCamas;
+	}
+
+	public double getMediaLlegadas() {
+		return mediaLlegadas;
+	}
+
+	public void setMediaLlegadas(double mediaLlegadas) {
+		this.mediaLlegadas = mediaLlegadas;
+	}
+
+	public double getMediaEstancia() {
+		return mediaEstancia;
+	}
+
+	public void setMediaEstancia(double mediaEstancia) {
+		this.mediaEstancia = mediaEstancia;
+	}
+
+	public ContDistExponential getArribos() {
+		return arribos;
+	}
+
+	public void setArribos(ContDistExponential arribos) {
+		this.arribos = arribos;
+	}
+
+	public ContDistExponential getEstancias() {
+		return estancias;
+	}
+
+	public void setEstancias(ContDistExponential estancias) {
+		this.estancias = estancias;
+	}
+
+	public int getCamas() {
+		return camas;
+	}
+
+	public void setCamas(int camas) {
+		this.camas = camas;
+	}
+
+	public ProcessQueue getPacientesEmergencia() {
+		return pacientesEmergencia;
+	}
+
+	public void setPacientesEmergencia(ProcessQueue pacientesEmergencia) {
+		this.pacientesEmergencia = pacientesEmergencia;
+	}
+
+	public int getCantidadCamasEmergencia() {
+		return cantidadCamasEmergencia;
+	}
+
+	public void setCantidadCamasEmergencia(int cantidadCamasEmergencia) {
+		this.cantidadCamasEmergencia = cantidadCamasEmergencia;
+	}
+
+	public double getMediaLlegadasEmergencia() {
+		return mediaLlegadasEmergencia;
+	}
+
+	public void setMediaLlegadasEmergencia(double mediaLlegadasEmergencia) {
+		this.mediaLlegadasEmergencia = mediaLlegadasEmergencia;
+	}
+
+	public double getMediaEstanciaEmergencia() {
+		return mediaEstanciaEmergencia;
+	}
+
+	public void setMediaEstanciaEmergencia(double mediaEstanciaEmergencia) {
+		this.mediaEstanciaEmergencia = mediaEstanciaEmergencia;
+	}
+
+	public ContDistExponential getArribosEmergencia() {
+		return arribosEmergencia;
+	}
+
+	public void setArribosEmergencia(ContDistExponential arribosEmergencia) {
+		this.arribosEmergencia = arribosEmergencia;
+	}
+
+	public ContDistExponential getEstanciaEmergencia() {
+		return estanciaEmergencia;
+	}
+
+	public void setEstanciaEmergencia(ContDistExponential estanciaEmergencia) {
+		this.estanciaEmergencia = estanciaEmergencia;
+	}
+
+	public int getCamasEmergencia() {
+		return camasEmergencia;
+	}
+
+	public void setCamasEmergencia(int camasEmergencia) {
+		this.camasEmergencia = camasEmergencia;
+	}
 }

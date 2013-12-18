@@ -1,0 +1,68 @@
+.TH "Ship" 3 "Wed Dec 18 2013" "Version 1.0" "LDH_Hospital_Desmoj" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Ship \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits SimProcess\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBShip\fP (Model owner, String name, boolean showInTrace)"
+.br
+.ti -1c
+.RI "void \fBlifeCycle\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "long \fBsize\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class represents a ship in the \fBResExample\fP model\&.
+.PP
+A ship arrives at the harbour and requests a number of berths according to its size\&. If there is enough space available, it proceeds to dock at the quay and is unloaded\&. Otherwise it has to wait\&. After service is completed, it leaves the system\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Olaf Neidhardt, Ruth Meyer 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Ship\&.Ship (Modelowner, Stringname, booleanshowInTrace)"
+Constructs a new ship\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIowner\fP the model this process belongs to 
+.br
+\fIname\fP this ship's name 
+.br
+\fIshowInTrace\fP flag to indicate if this process shall produce output for the trace 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Ship\&.lifeCycle ()"
+Describes this ship's life cycle:
+.PP
+On arrival, the ship will request a number of berths according to its size\&. This will result in having the ship wait until enough space is available\&. It will then proceed to the quay for unloading\&. After service it leaves the system\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "long Ship\&.size\fC [private]\fP"
+this ship's size in number of berths needed for docking at the quay 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LDH_Hospital_Desmoj from the source code\&.

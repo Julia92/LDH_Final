@@ -1,0 +1,461 @@
+\hypertarget{class_modelo_hospital}{\section{Modelo\-Hospital Class Reference}
+\label{class_modelo_hospital}\index{Modelo\-Hospital@{Modelo\-Hospital}}
+}
+
+
+Inheritance diagram for Modelo\-Hospital\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_modelo_hospital__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Modelo\-Hospital\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_modelo_hospital__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_modelo_hospital_a561bc154e141c4dd9967b37968dfa296}{Modelo\-Hospital} (Model owner, double \hyperlink{class_modelo_hospital_a01a673aabc00aff4fa4efecf10e1c628}{media\-Llegadas}\mbox{[}$\,$\mbox{]}, double \hyperlink{class_modelo_hospital_a10dea35940463cb2f7b34e333ac799b9}{media\-Estancia}\mbox{[}$\,$\mbox{]}, int \hyperlink{class_modelo_hospital_a7976b96ea2a7a95f28b9ae175201b54d}{cantidad\-Camas}\mbox{[}$\,$\mbox{]}, boolean show\-In\-Report, boolean show\-In\-Trace)
+\item 
+String \hyperlink{class_modelo_hospital_a4f87fdd61cdaff2ed5cbb85ea5fd6006}{description} ()
+\item 
+void \hyperlink{class_modelo_hospital_a3e65c59d620077e3c95993d89840fe69}{do\-Initial\-Schedules} ()
+\item 
+void \hyperlink{class_modelo_hospital_a7312f74eaa1d274a0e9d5a7a0d620a77}{init} ()
+\item 
+boolean \hyperlink{class_modelo_hospital_a8dd16235e4f29badaf383670ee81fb36}{hay\-Camas\-Libres} ()
+\item 
+void \hyperlink{class_modelo_hospital_aea16e0db18328c1e2bf7ec947739e7c6}{tomar\-Cama} ()
+\item 
+void \hyperlink{class_modelo_hospital_a8c0b523cdf04c197c6640fd950ae1e80}{liberar\-Cama} ()
+\item 
+boolean \hyperlink{class_modelo_hospital_a4ffee61b106d2d4539ca274b222b16b9}{hay\-Camas\-Libres\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_aa0e95405391c5233eca6546b901d7a2a}{tomar\-Cama\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a74d6a9a51049b037452f5e49eae2875a}{liberar\-Cama\-Emergencia} ()
+\item 
+Process\-Queue \hyperlink{class_modelo_hospital_ac97694528846204ccc5ee68534a0f65f}{get\-Pacientes\-Esperando} ()
+\item 
+void \hyperlink{class_modelo_hospital_abcd57bd92be67fde1e5ef25c3b3dabdf}{set\-Pacientes\-Esperando} (Process\-Queue \hyperlink{class_modelo_hospital_ad0cbe7f57f1733551b2bb33e1a90499a}{pacientes\-Esperando})
+\item 
+int \hyperlink{class_modelo_hospital_aa7ad6fbccb39812fe5081161b78e257a}{get\-Cantidad\-Camas} ()
+\item 
+void \hyperlink{class_modelo_hospital_ad211f5b9b2f0ee6ebd709c80aa23e669}{set\-Cantidad\-Camas} (int \hyperlink{class_modelo_hospital_a7976b96ea2a7a95f28b9ae175201b54d}{cantidad\-Camas})
+\item 
+double \hyperlink{class_modelo_hospital_a34ca65cd3ad714da1507f122611248a1}{get\-Media\-Llegadas} ()
+\item 
+void \hyperlink{class_modelo_hospital_acd298010a3718db2ad6b058d56dcb4d6}{set\-Media\-Llegadas} (double \hyperlink{class_modelo_hospital_a01a673aabc00aff4fa4efecf10e1c628}{media\-Llegadas})
+\item 
+double \hyperlink{class_modelo_hospital_afd8faf7a57f7e48573f3dfe59e545f58}{get\-Media\-Estancia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a013c12ed71bd90b9c2d791351a2c30bf}{set\-Media\-Estancia} (double \hyperlink{class_modelo_hospital_a10dea35940463cb2f7b34e333ac799b9}{media\-Estancia})
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_a690c485f67b47bd5fd89b47e8d9009b4}{get\-Arribos} ()
+\item 
+void \hyperlink{class_modelo_hospital_a098a0a42dd5f83aa727ca7bee606cada}{set\-Arribos} (Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_aa376037c68b7415b56f0f677d74c16dd}{arribos})
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_a159d40ea87139a6f0797c998b4e66acf}{get\-Estancias} ()
+\item 
+void \hyperlink{class_modelo_hospital_a162688bbf6cc7d6099777d24200094fb}{set\-Estancias} (Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_ac2594297170d65562215179eae38e2a1}{estancias})
+\item 
+int \hyperlink{class_modelo_hospital_a7257e8bb34b52f399a0e1e5c990cd6db}{get\-Camas} ()
+\item 
+void \hyperlink{class_modelo_hospital_acafb744c8543f81aa4a4f46c1dc4da68}{set\-Camas} (int \hyperlink{class_modelo_hospital_abe9d4c46824ac9a664db21b4d2482f5b}{camas})
+\item 
+Process\-Queue \hyperlink{class_modelo_hospital_a8e741a498c41cf7ab3c4edb3771df4c2}{get\-Pacientes\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a0089a647fb2d79610b9b577e60ec2c5c}{set\-Pacientes\-Emergencia} (Process\-Queue \hyperlink{class_modelo_hospital_a6a2e3dd496eac896ac92232d283db1be}{pacientes\-Emergencia})
+\item 
+int \hyperlink{class_modelo_hospital_a32ad20b8cd00111e971a2e1fbd5e2846}{get\-Cantidad\-Camas\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_ac5b372c3755661cb94d1697a272b6923}{set\-Cantidad\-Camas\-Emergencia} (int \hyperlink{class_modelo_hospital_a399104f28dff59862c839e754af5858b}{cantidad\-Camas\-Emergencia})
+\item 
+double \hyperlink{class_modelo_hospital_a9c481c295b65b1f77afa1fe06b1b05ad}{get\-Media\-Llegadas\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a8a9a80239c2d8b13c89e7202b8eb38f9}{set\-Media\-Llegadas\-Emergencia} (double \hyperlink{class_modelo_hospital_a8c82045a833cf70bce0e81b87e77d91a}{media\-Llegadas\-Emergencia})
+\item 
+double \hyperlink{class_modelo_hospital_a6499bb304800ae18bec2f6dd62ba6ac3}{get\-Media\-Estancia\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a52dd26c1ab4bc8afd883c8f9617436f9}{set\-Media\-Estancia\-Emergencia} (double \hyperlink{class_modelo_hospital_a251f7d9ddab04b2fb1e9ff101b3a3354}{media\-Estancia\-Emergencia})
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_aedeec1aa6b0808defec18d2896322222}{get\-Arribos\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a72adc5c0b478eb8ed58002a005d7f49f}{set\-Arribos\-Emergencia} (Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_aa508c4132ba981b9520f843dc24561e4}{arribos\-Emergencia})
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_a89f98296bc582af6df104c4e32a3b573}{get\-Estancia\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a8ba5a635a30938fba92f3594f081c38c}{set\-Estancia\-Emergencia} (Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_a6c710d90f7333974d066f761b23688c1}{estancia\-Emergencia})
+\item 
+int \hyperlink{class_modelo_hospital_a9edf287fe12a81a36d15685d0d18382e}{get\-Camas\-Emergencia} ()
+\item 
+void \hyperlink{class_modelo_hospital_a0f817fd9a6d476436bc2dd2b960885b0}{set\-Camas\-Emergencia} (int \hyperlink{class_modelo_hospital_ad9062f6156719fa8052f4cafe877f8b0}{camas\-Emergencia})
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Process\-Queue \hyperlink{class_modelo_hospital_ad0cbe7f57f1733551b2bb33e1a90499a}{pacientes\-Esperando}
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_aa376037c68b7415b56f0f677d74c16dd}{arribos}
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_ac2594297170d65562215179eae38e2a1}{estancias}
+\item 
+Process\-Queue \hyperlink{class_modelo_hospital_a6a2e3dd496eac896ac92232d283db1be}{pacientes\-Emergencia}
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_aa508c4132ba981b9520f843dc24561e4}{arribos\-Emergencia}
+\item 
+Cont\-Dist\-Exponential \hyperlink{class_modelo_hospital_a6c710d90f7333974d066f761b23688c1}{estancia\-Emergencia}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_modelo_hospital_a7976b96ea2a7a95f28b9ae175201b54d}{cantidad\-Camas}
+\item 
+double \hyperlink{class_modelo_hospital_a01a673aabc00aff4fa4efecf10e1c628}{media\-Llegadas}
+\item 
+double \hyperlink{class_modelo_hospital_a10dea35940463cb2f7b34e333ac799b9}{media\-Estancia}
+\item 
+int \hyperlink{class_modelo_hospital_abe9d4c46824ac9a664db21b4d2482f5b}{camas}
+\item 
+int \hyperlink{class_modelo_hospital_a399104f28dff59862c839e754af5858b}{cantidad\-Camas\-Emergencia}
+\item 
+double \hyperlink{class_modelo_hospital_a8c82045a833cf70bce0e81b87e77d91a}{media\-Llegadas\-Emergencia}
+\item 
+double \hyperlink{class_modelo_hospital_a251f7d9ddab04b2fb1e9ff101b3a3354}{media\-Estancia\-Emergencia}
+\item 
+int \hyperlink{class_modelo_hospital_ad9062f6156719fa8052f4cafe877f8b0}{camas\-Emergencia}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_modelo_hospital_a561bc154e141c4dd9967b37968dfa296}{\index{Modelo\-Hospital@{Modelo\-Hospital}!Modelo\-Hospital@{Modelo\-Hospital}}
+\index{Modelo\-Hospital@{Modelo\-Hospital}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{Modelo\-Hospital}]{\setlength{\rightskip}{0pt plus 5cm}Modelo\-Hospital.\-Modelo\-Hospital (
+\begin{DoxyParamCaption}
+\item[{Model}]{owner, }
+\item[{double}]{media\-Llegadas\mbox{[}$\,$\mbox{]}, }
+\item[{double}]{media\-Estancia\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{cantidad\-Camas\mbox{[}$\,$\mbox{]}, }
+\item[{boolean}]{show\-In\-Report, }
+\item[{boolean}]{show\-In\-Trace}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a561bc154e141c4dd9967b37968dfa296}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_modelo_hospital_a4f87fdd61cdaff2ed5cbb85ea5fd6006}{\index{Modelo\-Hospital@{Modelo\-Hospital}!description@{description}}
+\index{description@{description}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{description}]{\setlength{\rightskip}{0pt plus 5cm}String Modelo\-Hospital.\-description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a4f87fdd61cdaff2ed5cbb85ea5fd6006}
+\hypertarget{class_modelo_hospital_a3e65c59d620077e3c95993d89840fe69}{\index{Modelo\-Hospital@{Modelo\-Hospital}!do\-Initial\-Schedules@{do\-Initial\-Schedules}}
+\index{do\-Initial\-Schedules@{do\-Initial\-Schedules}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{do\-Initial\-Schedules}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-do\-Initial\-Schedules (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a3e65c59d620077e3c95993d89840fe69}
+\hypertarget{class_modelo_hospital_a690c485f67b47bd5fd89b47e8d9009b4}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Arribos@{get\-Arribos}}
+\index{get\-Arribos@{get\-Arribos}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Arribos}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-get\-Arribos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a690c485f67b47bd5fd89b47e8d9009b4}
+\hypertarget{class_modelo_hospital_aedeec1aa6b0808defec18d2896322222}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Arribos\-Emergencia@{get\-Arribos\-Emergencia}}
+\index{get\-Arribos\-Emergencia@{get\-Arribos\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Arribos\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-get\-Arribos\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_aedeec1aa6b0808defec18d2896322222}
+\hypertarget{class_modelo_hospital_a7257e8bb34b52f399a0e1e5c990cd6db}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Camas@{get\-Camas}}
+\index{get\-Camas@{get\-Camas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Camas}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-get\-Camas (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a7257e8bb34b52f399a0e1e5c990cd6db}
+\hypertarget{class_modelo_hospital_a9edf287fe12a81a36d15685d0d18382e}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Camas\-Emergencia@{get\-Camas\-Emergencia}}
+\index{get\-Camas\-Emergencia@{get\-Camas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Camas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-get\-Camas\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a9edf287fe12a81a36d15685d0d18382e}
+\hypertarget{class_modelo_hospital_aa7ad6fbccb39812fe5081161b78e257a}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Cantidad\-Camas@{get\-Cantidad\-Camas}}
+\index{get\-Cantidad\-Camas@{get\-Cantidad\-Camas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Cantidad\-Camas}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-get\-Cantidad\-Camas (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_aa7ad6fbccb39812fe5081161b78e257a}
+\hypertarget{class_modelo_hospital_a32ad20b8cd00111e971a2e1fbd5e2846}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Cantidad\-Camas\-Emergencia@{get\-Cantidad\-Camas\-Emergencia}}
+\index{get\-Cantidad\-Camas\-Emergencia@{get\-Cantidad\-Camas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Cantidad\-Camas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-get\-Cantidad\-Camas\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a32ad20b8cd00111e971a2e1fbd5e2846}
+\hypertarget{class_modelo_hospital_a89f98296bc582af6df104c4e32a3b573}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Estancia\-Emergencia@{get\-Estancia\-Emergencia}}
+\index{get\-Estancia\-Emergencia@{get\-Estancia\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Estancia\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-get\-Estancia\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a89f98296bc582af6df104c4e32a3b573}
+\hypertarget{class_modelo_hospital_a159d40ea87139a6f0797c998b4e66acf}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Estancias@{get\-Estancias}}
+\index{get\-Estancias@{get\-Estancias}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Estancias}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-get\-Estancias (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a159d40ea87139a6f0797c998b4e66acf}
+\hypertarget{class_modelo_hospital_afd8faf7a57f7e48573f3dfe59e545f58}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Media\-Estancia@{get\-Media\-Estancia}}
+\index{get\-Media\-Estancia@{get\-Media\-Estancia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Media\-Estancia}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-get\-Media\-Estancia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_afd8faf7a57f7e48573f3dfe59e545f58}
+\hypertarget{class_modelo_hospital_a6499bb304800ae18bec2f6dd62ba6ac3}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Media\-Estancia\-Emergencia@{get\-Media\-Estancia\-Emergencia}}
+\index{get\-Media\-Estancia\-Emergencia@{get\-Media\-Estancia\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Media\-Estancia\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-get\-Media\-Estancia\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a6499bb304800ae18bec2f6dd62ba6ac3}
+\hypertarget{class_modelo_hospital_a34ca65cd3ad714da1507f122611248a1}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Media\-Llegadas@{get\-Media\-Llegadas}}
+\index{get\-Media\-Llegadas@{get\-Media\-Llegadas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Media\-Llegadas}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-get\-Media\-Llegadas (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a34ca65cd3ad714da1507f122611248a1}
+\hypertarget{class_modelo_hospital_a9c481c295b65b1f77afa1fe06b1b05ad}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Media\-Llegadas\-Emergencia@{get\-Media\-Llegadas\-Emergencia}}
+\index{get\-Media\-Llegadas\-Emergencia@{get\-Media\-Llegadas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Media\-Llegadas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-get\-Media\-Llegadas\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a9c481c295b65b1f77afa1fe06b1b05ad}
+\hypertarget{class_modelo_hospital_a8e741a498c41cf7ab3c4edb3771df4c2}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Pacientes\-Emergencia@{get\-Pacientes\-Emergencia}}
+\index{get\-Pacientes\-Emergencia@{get\-Pacientes\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Pacientes\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}Process\-Queue Modelo\-Hospital.\-get\-Pacientes\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a8e741a498c41cf7ab3c4edb3771df4c2}
+\hypertarget{class_modelo_hospital_ac97694528846204ccc5ee68534a0f65f}{\index{Modelo\-Hospital@{Modelo\-Hospital}!get\-Pacientes\-Esperando@{get\-Pacientes\-Esperando}}
+\index{get\-Pacientes\-Esperando@{get\-Pacientes\-Esperando}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{get\-Pacientes\-Esperando}]{\setlength{\rightskip}{0pt plus 5cm}Process\-Queue Modelo\-Hospital.\-get\-Pacientes\-Esperando (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_ac97694528846204ccc5ee68534a0f65f}
+\hypertarget{class_modelo_hospital_a8dd16235e4f29badaf383670ee81fb36}{\index{Modelo\-Hospital@{Modelo\-Hospital}!hay\-Camas\-Libres@{hay\-Camas\-Libres}}
+\index{hay\-Camas\-Libres@{hay\-Camas\-Libres}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{hay\-Camas\-Libres}]{\setlength{\rightskip}{0pt plus 5cm}boolean Modelo\-Hospital.\-hay\-Camas\-Libres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a8dd16235e4f29badaf383670ee81fb36}
+\hypertarget{class_modelo_hospital_a4ffee61b106d2d4539ca274b222b16b9}{\index{Modelo\-Hospital@{Modelo\-Hospital}!hay\-Camas\-Libres\-Emergencia@{hay\-Camas\-Libres\-Emergencia}}
+\index{hay\-Camas\-Libres\-Emergencia@{hay\-Camas\-Libres\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{hay\-Camas\-Libres\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}boolean Modelo\-Hospital.\-hay\-Camas\-Libres\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a4ffee61b106d2d4539ca274b222b16b9}
+\hypertarget{class_modelo_hospital_a7312f74eaa1d274a0e9d5a7a0d620a77}{\index{Modelo\-Hospital@{Modelo\-Hospital}!init@{init}}
+\index{init@{init}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a7312f74eaa1d274a0e9d5a7a0d620a77}
+\hypertarget{class_modelo_hospital_a8c0b523cdf04c197c6640fd950ae1e80}{\index{Modelo\-Hospital@{Modelo\-Hospital}!liberar\-Cama@{liberar\-Cama}}
+\index{liberar\-Cama@{liberar\-Cama}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{liberar\-Cama}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-liberar\-Cama (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a8c0b523cdf04c197c6640fd950ae1e80}
+\hypertarget{class_modelo_hospital_a74d6a9a51049b037452f5e49eae2875a}{\index{Modelo\-Hospital@{Modelo\-Hospital}!liberar\-Cama\-Emergencia@{liberar\-Cama\-Emergencia}}
+\index{liberar\-Cama\-Emergencia@{liberar\-Cama\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{liberar\-Cama\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-liberar\-Cama\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a74d6a9a51049b037452f5e49eae2875a}
+\hypertarget{class_modelo_hospital_a098a0a42dd5f83aa727ca7bee606cada}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Arribos@{set\-Arribos}}
+\index{set\-Arribos@{set\-Arribos}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Arribos}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Arribos (
+\begin{DoxyParamCaption}
+\item[{Cont\-Dist\-Exponential}]{arribos}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a098a0a42dd5f83aa727ca7bee606cada}
+\hypertarget{class_modelo_hospital_a72adc5c0b478eb8ed58002a005d7f49f}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Arribos\-Emergencia@{set\-Arribos\-Emergencia}}
+\index{set\-Arribos\-Emergencia@{set\-Arribos\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Arribos\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Arribos\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{Cont\-Dist\-Exponential}]{arribos\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a72adc5c0b478eb8ed58002a005d7f49f}
+\hypertarget{class_modelo_hospital_acafb744c8543f81aa4a4f46c1dc4da68}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Camas@{set\-Camas}}
+\index{set\-Camas@{set\-Camas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Camas}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Camas (
+\begin{DoxyParamCaption}
+\item[{int}]{camas}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_acafb744c8543f81aa4a4f46c1dc4da68}
+\hypertarget{class_modelo_hospital_a0f817fd9a6d476436bc2dd2b960885b0}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Camas\-Emergencia@{set\-Camas\-Emergencia}}
+\index{set\-Camas\-Emergencia@{set\-Camas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Camas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Camas\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{int}]{camas\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a0f817fd9a6d476436bc2dd2b960885b0}
+\hypertarget{class_modelo_hospital_ad211f5b9b2f0ee6ebd709c80aa23e669}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Cantidad\-Camas@{set\-Cantidad\-Camas}}
+\index{set\-Cantidad\-Camas@{set\-Cantidad\-Camas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Cantidad\-Camas}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Cantidad\-Camas (
+\begin{DoxyParamCaption}
+\item[{int}]{cantidad\-Camas}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_ad211f5b9b2f0ee6ebd709c80aa23e669}
+\hypertarget{class_modelo_hospital_ac5b372c3755661cb94d1697a272b6923}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Cantidad\-Camas\-Emergencia@{set\-Cantidad\-Camas\-Emergencia}}
+\index{set\-Cantidad\-Camas\-Emergencia@{set\-Cantidad\-Camas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Cantidad\-Camas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Cantidad\-Camas\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{int}]{cantidad\-Camas\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_ac5b372c3755661cb94d1697a272b6923}
+\hypertarget{class_modelo_hospital_a8ba5a635a30938fba92f3594f081c38c}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Estancia\-Emergencia@{set\-Estancia\-Emergencia}}
+\index{set\-Estancia\-Emergencia@{set\-Estancia\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Estancia\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Estancia\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{Cont\-Dist\-Exponential}]{estancia\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a8ba5a635a30938fba92f3594f081c38c}
+\hypertarget{class_modelo_hospital_a162688bbf6cc7d6099777d24200094fb}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Estancias@{set\-Estancias}}
+\index{set\-Estancias@{set\-Estancias}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Estancias}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Estancias (
+\begin{DoxyParamCaption}
+\item[{Cont\-Dist\-Exponential}]{estancias}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a162688bbf6cc7d6099777d24200094fb}
+\hypertarget{class_modelo_hospital_a013c12ed71bd90b9c2d791351a2c30bf}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Media\-Estancia@{set\-Media\-Estancia}}
+\index{set\-Media\-Estancia@{set\-Media\-Estancia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Media\-Estancia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Media\-Estancia (
+\begin{DoxyParamCaption}
+\item[{double}]{media\-Estancia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a013c12ed71bd90b9c2d791351a2c30bf}
+\hypertarget{class_modelo_hospital_a52dd26c1ab4bc8afd883c8f9617436f9}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Media\-Estancia\-Emergencia@{set\-Media\-Estancia\-Emergencia}}
+\index{set\-Media\-Estancia\-Emergencia@{set\-Media\-Estancia\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Media\-Estancia\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Media\-Estancia\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{double}]{media\-Estancia\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a52dd26c1ab4bc8afd883c8f9617436f9}
+\hypertarget{class_modelo_hospital_acd298010a3718db2ad6b058d56dcb4d6}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Media\-Llegadas@{set\-Media\-Llegadas}}
+\index{set\-Media\-Llegadas@{set\-Media\-Llegadas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Media\-Llegadas}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Media\-Llegadas (
+\begin{DoxyParamCaption}
+\item[{double}]{media\-Llegadas}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_acd298010a3718db2ad6b058d56dcb4d6}
+\hypertarget{class_modelo_hospital_a8a9a80239c2d8b13c89e7202b8eb38f9}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Media\-Llegadas\-Emergencia@{set\-Media\-Llegadas\-Emergencia}}
+\index{set\-Media\-Llegadas\-Emergencia@{set\-Media\-Llegadas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Media\-Llegadas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Media\-Llegadas\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{double}]{media\-Llegadas\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a8a9a80239c2d8b13c89e7202b8eb38f9}
+\hypertarget{class_modelo_hospital_a0089a647fb2d79610b9b577e60ec2c5c}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Pacientes\-Emergencia@{set\-Pacientes\-Emergencia}}
+\index{set\-Pacientes\-Emergencia@{set\-Pacientes\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Pacientes\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Pacientes\-Emergencia (
+\begin{DoxyParamCaption}
+\item[{Process\-Queue}]{pacientes\-Emergencia}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_a0089a647fb2d79610b9b577e60ec2c5c}
+\hypertarget{class_modelo_hospital_abcd57bd92be67fde1e5ef25c3b3dabdf}{\index{Modelo\-Hospital@{Modelo\-Hospital}!set\-Pacientes\-Esperando@{set\-Pacientes\-Esperando}}
+\index{set\-Pacientes\-Esperando@{set\-Pacientes\-Esperando}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{set\-Pacientes\-Esperando}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-set\-Pacientes\-Esperando (
+\begin{DoxyParamCaption}
+\item[{Process\-Queue}]{pacientes\-Esperando}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_abcd57bd92be67fde1e5ef25c3b3dabdf}
+\hypertarget{class_modelo_hospital_aea16e0db18328c1e2bf7ec947739e7c6}{\index{Modelo\-Hospital@{Modelo\-Hospital}!tomar\-Cama@{tomar\-Cama}}
+\index{tomar\-Cama@{tomar\-Cama}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{tomar\-Cama}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-tomar\-Cama (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_aea16e0db18328c1e2bf7ec947739e7c6}
+\hypertarget{class_modelo_hospital_aa0e95405391c5233eca6546b901d7a2a}{\index{Modelo\-Hospital@{Modelo\-Hospital}!tomar\-Cama\-Emergencia@{tomar\-Cama\-Emergencia}}
+\index{tomar\-Cama\-Emergencia@{tomar\-Cama\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{tomar\-Cama\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}void Modelo\-Hospital.\-tomar\-Cama\-Emergencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_modelo_hospital_aa0e95405391c5233eca6546b901d7a2a}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_modelo_hospital_aa376037c68b7415b56f0f677d74c16dd}{\index{Modelo\-Hospital@{Modelo\-Hospital}!arribos@{arribos}}
+\index{arribos@{arribos}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{arribos}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-arribos}}\label{class_modelo_hospital_aa376037c68b7415b56f0f677d74c16dd}
+\hypertarget{class_modelo_hospital_aa508c4132ba981b9520f843dc24561e4}{\index{Modelo\-Hospital@{Modelo\-Hospital}!arribos\-Emergencia@{arribos\-Emergencia}}
+\index{arribos\-Emergencia@{arribos\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{arribos\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-arribos\-Emergencia}}\label{class_modelo_hospital_aa508c4132ba981b9520f843dc24561e4}
+\hypertarget{class_modelo_hospital_abe9d4c46824ac9a664db21b4d2482f5b}{\index{Modelo\-Hospital@{Modelo\-Hospital}!camas@{camas}}
+\index{camas@{camas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{camas}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-camas\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_abe9d4c46824ac9a664db21b4d2482f5b}
+\hypertarget{class_modelo_hospital_ad9062f6156719fa8052f4cafe877f8b0}{\index{Modelo\-Hospital@{Modelo\-Hospital}!camas\-Emergencia@{camas\-Emergencia}}
+\index{camas\-Emergencia@{camas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{camas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-camas\-Emergencia\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_ad9062f6156719fa8052f4cafe877f8b0}
+\hypertarget{class_modelo_hospital_a7976b96ea2a7a95f28b9ae175201b54d}{\index{Modelo\-Hospital@{Modelo\-Hospital}!cantidad\-Camas@{cantidad\-Camas}}
+\index{cantidad\-Camas@{cantidad\-Camas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{cantidad\-Camas}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-cantidad\-Camas\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_a7976b96ea2a7a95f28b9ae175201b54d}
+\hypertarget{class_modelo_hospital_a399104f28dff59862c839e754af5858b}{\index{Modelo\-Hospital@{Modelo\-Hospital}!cantidad\-Camas\-Emergencia@{cantidad\-Camas\-Emergencia}}
+\index{cantidad\-Camas\-Emergencia@{cantidad\-Camas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{cantidad\-Camas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}int Modelo\-Hospital.\-cantidad\-Camas\-Emergencia\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_a399104f28dff59862c839e754af5858b}
+\hypertarget{class_modelo_hospital_a6c710d90f7333974d066f761b23688c1}{\index{Modelo\-Hospital@{Modelo\-Hospital}!estancia\-Emergencia@{estancia\-Emergencia}}
+\index{estancia\-Emergencia@{estancia\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{estancia\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-estancia\-Emergencia}}\label{class_modelo_hospital_a6c710d90f7333974d066f761b23688c1}
+\hypertarget{class_modelo_hospital_ac2594297170d65562215179eae38e2a1}{\index{Modelo\-Hospital@{Modelo\-Hospital}!estancias@{estancias}}
+\index{estancias@{estancias}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{estancias}]{\setlength{\rightskip}{0pt plus 5cm}Cont\-Dist\-Exponential Modelo\-Hospital.\-estancias}}\label{class_modelo_hospital_ac2594297170d65562215179eae38e2a1}
+\hypertarget{class_modelo_hospital_a10dea35940463cb2f7b34e333ac799b9}{\index{Modelo\-Hospital@{Modelo\-Hospital}!media\-Estancia@{media\-Estancia}}
+\index{media\-Estancia@{media\-Estancia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{media\-Estancia}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-media\-Estancia\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_a10dea35940463cb2f7b34e333ac799b9}
+\hypertarget{class_modelo_hospital_a251f7d9ddab04b2fb1e9ff101b3a3354}{\index{Modelo\-Hospital@{Modelo\-Hospital}!media\-Estancia\-Emergencia@{media\-Estancia\-Emergencia}}
+\index{media\-Estancia\-Emergencia@{media\-Estancia\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{media\-Estancia\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-media\-Estancia\-Emergencia\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_a251f7d9ddab04b2fb1e9ff101b3a3354}
+\hypertarget{class_modelo_hospital_a01a673aabc00aff4fa4efecf10e1c628}{\index{Modelo\-Hospital@{Modelo\-Hospital}!media\-Llegadas@{media\-Llegadas}}
+\index{media\-Llegadas@{media\-Llegadas}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{media\-Llegadas}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-media\-Llegadas\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_a01a673aabc00aff4fa4efecf10e1c628}
+\hypertarget{class_modelo_hospital_a8c82045a833cf70bce0e81b87e77d91a}{\index{Modelo\-Hospital@{Modelo\-Hospital}!media\-Llegadas\-Emergencia@{media\-Llegadas\-Emergencia}}
+\index{media\-Llegadas\-Emergencia@{media\-Llegadas\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{media\-Llegadas\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}double Modelo\-Hospital.\-media\-Llegadas\-Emergencia\hspace{0.3cm}{\ttfamily [private]}}}\label{class_modelo_hospital_a8c82045a833cf70bce0e81b87e77d91a}
+\hypertarget{class_modelo_hospital_a6a2e3dd496eac896ac92232d283db1be}{\index{Modelo\-Hospital@{Modelo\-Hospital}!pacientes\-Emergencia@{pacientes\-Emergencia}}
+\index{pacientes\-Emergencia@{pacientes\-Emergencia}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{pacientes\-Emergencia}]{\setlength{\rightskip}{0pt plus 5cm}Process\-Queue Modelo\-Hospital.\-pacientes\-Emergencia}}\label{class_modelo_hospital_a6a2e3dd496eac896ac92232d283db1be}
+\hypertarget{class_modelo_hospital_ad0cbe7f57f1733551b2bb33e1a90499a}{\index{Modelo\-Hospital@{Modelo\-Hospital}!pacientes\-Esperando@{pacientes\-Esperando}}
+\index{pacientes\-Esperando@{pacientes\-Esperando}!ModeloHospital@{Modelo\-Hospital}}
+\subsubsection[{pacientes\-Esperando}]{\setlength{\rightskip}{0pt plus 5cm}Process\-Queue Modelo\-Hospital.\-pacientes\-Esperando}}\label{class_modelo_hospital_ad0cbe7f57f1733551b2bb33e1a90499a}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{_modelo_hospital_8java}{Modelo\-Hospital.\-java}\end{DoxyCompactItemize}

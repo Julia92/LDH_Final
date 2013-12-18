@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_ship" kind="class" prot="public">
+    <compoundname>Ship</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SimProcess</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ship_1ad820fe788a78a2b9e1c68b32c5596f79" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long Ship.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this ship&apos;s size in number of berths needed for docking at the quay </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" line="20" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ship_1a8f3b6e601c7487a18699452dbdcf163c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ship.Ship</definition>
+        <argsstring>(Model owner, String name, boolean showInTrace)</argsstring>
+        <name>Ship</name>
+        <param>
+          <type>Model</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInTrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new ship. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the model this process belongs to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this ship&apos;s name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showInTrace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag to indicate if this process shall produce output for the trace </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" line="28" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ship_1a553ad1866574241a0d48d80cbdb7cf21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ship.lifeCycle</definition>
+        <argsstring>()</argsstring>
+        <name>lifeCycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describes this ship&apos;s life cycle:</para><para>On arrival, the ship will request a number of berths according to its size. This will result in having the ship wait until enough space is available. It will then proceed to the quay for unloading. After service it leaves the system. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" line="41" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" bodystart="41" bodyend="61"/>
+        <references refid="class_ship_1ad820fe788a78a2b9e1c68b32c5596f79" compoundref="_ship_8java" startline="20">size</references>
+        <references refid="class_res_example_1a7fabf49b9a1e22badd86d3d910382792" compoundref="_res_example_8java" startline="107" endline="110">ResExample.getServiceTime</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represents a ship in the <ref refid="class_res_example" kindref="compound">ResExample</ref> model.</para><para>A ship arrives at the harbour and requests a number of berths according to its size. If there is enough space available, it proceeds to dock at the quay and is unloaded. Otherwise it has to wait. After service is completed, it leaves the system. <simplesect kind="author"><para>Olaf Neidhardt, Ruth Meyer </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>Ship</label>
+        <link refid="class_ship"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>SimProcess</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>Ship</label>
+        <link refid="class_ship"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>SimProcess</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" line="17" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/Ship.java" bodystart="17" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_ship_1a553ad1866574241a0d48d80cbdb7cf21" prot="public" virt="non-virtual"><scope>Ship</scope><name>lifeCycle</name></member>
+      <member refid="class_ship_1a8f3b6e601c7487a18699452dbdcf163c" prot="public" virt="non-virtual"><scope>Ship</scope><name>Ship</name></member>
+      <member refid="class_ship_1ad820fe788a78a2b9e1c68b32c5596f79" prot="private" virt="non-virtual"><scope>Ship</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

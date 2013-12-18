@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_eae6d5eaa1f37a7a28f59220c6dd200e" kind="dir">
+    <compoundname>SimuladorBarco/src</compoundname>
+    <innerfile refid="_res_example_8java">ResExample.java</innerfile>
+    <innerfile refid="_ship_8java">Ship.java</innerfile>
+    <innerfile refid="_ship_generator_8java">ShipGenerator.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/SimuladorBarco/src/"/>
+  </compounddef>
+</doxygen>

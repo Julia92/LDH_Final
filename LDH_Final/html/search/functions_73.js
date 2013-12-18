@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['setarribos',['setArribos',['../class_modelo_hospital.html#a098a0a42dd5f83aa727ca7bee606cada',1,'ModeloHospital']]],
+  ['setarribosemergencia',['setArribosEmergencia',['../class_modelo_hospital.html#a72adc5c0b478eb8ed58002a005d7f49f',1,'ModeloHospital']]],
+  ['setcamas',['setCamas',['../class_modelo_hospital.html#acafb744c8543f81aa4a4f46c1dc4da68',1,'ModeloHospital']]],
+  ['setcamasemergencia',['setCamasEmergencia',['../class_modelo_hospital.html#a0f817fd9a6d476436bc2dd2b960885b0',1,'ModeloHospital']]],
+  ['setcantidadcamas',['setCantidadCamas',['../class_modelo_hospital.html#ad211f5b9b2f0ee6ebd709c80aa23e669',1,'ModeloHospital']]],
+  ['setcantidadcamasemergencia',['setCantidadCamasEmergencia',['../class_modelo_hospital.html#ac5b372c3755661cb94d1697a272b6923',1,'ModeloHospital']]],
+  ['setestanciaemergencia',['setEstanciaEmergencia',['../class_modelo_hospital.html#a8ba5a635a30938fba92f3594f081c38c',1,'ModeloHospital']]],
+  ['setestancias',['setEstancias',['../class_modelo_hospital.html#a162688bbf6cc7d6099777d24200094fb',1,'ModeloHospital']]],
+  ['setmediaestancia',['setMediaEstancia',['../class_modelo_hospital.html#a013c12ed71bd90b9c2d791351a2c30bf',1,'ModeloHospital']]],
+  ['setmediaestanciaemergencia',['setMediaEstanciaEmergencia',['../class_modelo_hospital.html#a52dd26c1ab4bc8afd883c8f9617436f9',1,'ModeloHospital']]],
+  ['setmediallegadas',['setMediaLlegadas',['../class_modelo_hospital.html#acd298010a3718db2ad6b058d56dcb4d6',1,'ModeloHospital']]],
+  ['setmediallegadasemergencia',['setMediaLlegadasEmergencia',['../class_modelo_hospital.html#a8a9a80239c2d8b13c89e7202b8eb38f9',1,'ModeloHospital']]],
+  ['setpacientesemergencia',['setPacientesEmergencia',['../class_modelo_hospital.html#a0089a647fb2d79610b9b577e60ec2c5c',1,'ModeloHospital']]],
+  ['setpacientesesperando',['setPacientesEsperando',['../class_modelo_hospital.html#abcd57bd92be67fde1e5ef25c3b3dabdf',1,'ModeloHospital']]],
+  ['ship',['Ship',['../class_ship.html#a8f3b6e601c7487a18699452dbdcf163c',1,'Ship']]],
+  ['shipgenerator',['ShipGenerator',['../class_ship_generator.html#a0f5dd5eea4a965e376cdaa84109e7197',1,'ShipGenerator']]]
+];

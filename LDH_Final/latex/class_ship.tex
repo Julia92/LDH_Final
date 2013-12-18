@@ -1,0 +1,99 @@
+\hypertarget{class_ship}{\section{Ship Class Reference}
+\label{class_ship}\index{Ship@{Ship}}
+}
+
+
+Inheritance diagram for Ship\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{class_ship__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ship\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{class_ship__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ship_a8f3b6e601c7487a18699452dbdcf163c}{Ship} (Model owner, String name, boolean show\-In\-Trace)
+\item 
+void \hyperlink{class_ship_a553ad1866574241a0d48d80cbdb7cf21}{life\-Cycle} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \hyperlink{class_ship_ad820fe788a78a2b9e1c68b32c5596f79}{size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a ship in the \hyperlink{class_res_example}{Res\-Example} model.
+
+A ship arrives at the harbour and requests a number of berths according to its size. If there is enough space available, it proceeds to dock at the quay and is unloaded. Otherwise it has to wait. After service is completed, it leaves the system. \begin{DoxyAuthor}{Author}
+Olaf Neidhardt, Ruth Meyer 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_ship_a8f3b6e601c7487a18699452dbdcf163c}{\index{Ship@{Ship}!Ship@{Ship}}
+\index{Ship@{Ship}!Ship@{Ship}}
+\subsubsection[{Ship}]{\setlength{\rightskip}{0pt plus 5cm}Ship.\-Ship (
+\begin{DoxyParamCaption}
+\item[{Model}]{owner, }
+\item[{String}]{name, }
+\item[{boolean}]{show\-In\-Trace}
+\end{DoxyParamCaption}
+)}}\label{class_ship_a8f3b6e601c7487a18699452dbdcf163c}
+Constructs a new ship. 
+\begin{DoxyParams}{Parameters}
+{\em owner} & the model this process belongs to \\
+\hline
+{\em name} & this ship's name \\
+\hline
+{\em show\-In\-Trace} & flag to indicate if this process shall produce output for the trace \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_ship_a553ad1866574241a0d48d80cbdb7cf21}{\index{Ship@{Ship}!life\-Cycle@{life\-Cycle}}
+\index{life\-Cycle@{life\-Cycle}!Ship@{Ship}}
+\subsubsection[{life\-Cycle}]{\setlength{\rightskip}{0pt plus 5cm}void Ship.\-life\-Cycle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_ship_a553ad1866574241a0d48d80cbdb7cf21}
+Describes this ship's life cycle\-:
+
+On arrival, the ship will request a number of berths according to its size. This will result in having the ship wait until enough space is available. It will then proceed to the quay for unloading. After service it leaves the system. 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_ship_a553ad1866574241a0d48d80cbdb7cf21_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_ship_ad820fe788a78a2b9e1c68b32c5596f79}{\index{Ship@{Ship}!size@{size}}
+\index{size@{size}!Ship@{Ship}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}long Ship.\-size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_ship_ad820fe788a78a2b9e1c68b32c5596f79}
+this ship's size in number of berths needed for docking at the quay 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Simulador\-Barco/src/\hyperlink{_ship_8java}{Ship.\-java}\end{DoxyCompactItemize}

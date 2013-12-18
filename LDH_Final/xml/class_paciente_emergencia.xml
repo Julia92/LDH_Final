@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_paciente_emergencia" kind="class" prot="public">
+    <compoundname>PacienteEmergencia</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SimProcess</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_paciente_emergencia_1aa794154e926dda04cf083d8b2b60737c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_modelo_hospital" kindref="compound">ModeloHospital</ref></type>
+        <definition>ModeloHospital PacienteEmergencia.myModel</definition>
+        <argsstring></argsstring>
+        <name>myModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" line="7" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_paciente_emergencia_1a1e71030a4d66cf7c5ad79743c67bc17f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PacienteEmergencia.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" line="8" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_paciente_emergencia_1a570fc186959f4d2b2038f1f27f8fe75f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PacienteEmergencia.PacienteEmergencia</definition>
+        <argsstring>(Model owner, String name, int id, boolean showInTrace)</argsstring>
+        <name>PacienteEmergencia</name>
+        <param>
+          <type>Model</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInTrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" line="10" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" bodystart="10" bodyend="14"/>
+        <references refid="class_paciente_emergencia_1a1e71030a4d66cf7c5ad79743c67bc17f" compoundref="_paciente_emergencia_8java" startline="8">id</references>
+        <references refid="class_paciente_emergencia_1aa794154e926dda04cf083d8b2b60737c" compoundref="_paciente_emergencia_8java" startline="7">myModel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_paciente_emergencia_1a445b55bb8a640deb5a80ea142969efa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PacienteEmergencia.lifeCycle</definition>
+        <argsstring>()</argsstring>
+        <name>lifeCycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" line="17" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" bodystart="17" bodyend="34"/>
+        <references refid="class_paciente_emergencia_1aa794154e926dda04cf083d8b2b60737c" compoundref="_paciente_emergencia_8java" startline="7">myModel</references>
+        <references refid="class_modelo_hospital_1a4ffee61b106d2d4539ca274b222b16b9" compoundref="_modelo_hospital_8java" startline="80" endline="83">ModeloHospital.hayCamasLibresEmergencia</references>
+        <references refid="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" compoundref="_modelo_hospital_8java" startline="23">ModeloHospital.estanciaEmergencia</references>
+        <references refid="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" compoundref="_modelo_hospital_8java" startline="18">ModeloHospital.pacientesEmergencia</references>
+        <references refid="class_paciente_emergencia_1a570fc186959f4d2b2038f1f27f8fe75f" compoundref="_paciente_emergencia_8java" startline="10" endline="14">PacienteEmergencia</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>SimProcess</label>
+      </node>
+      <node id="64">
+        <label>PacienteEmergencia</label>
+        <link refid="class_paciente_emergencia"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="70">
+        <label>ProcessQueue</label>
+      </node>
+      <node id="71">
+        <label>ContDistExponential</label>
+      </node>
+      <node id="67">
+        <label>SimProcess</label>
+      </node>
+      <node id="66">
+        <label>PacienteEmergencia</label>
+        <link refid="class_paciente_emergencia"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>myModel</edgelabel>
+        </childnode>
+      </node>
+      <node id="68">
+        <label>ModeloHospital</label>
+        <link refid="class_modelo_hospital"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>pacientesEsperando</edgelabel>
+          <edgelabel>pacientesEmergencia</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>arribos</edgelabel>
+          <edgelabel>estanciaEmergencia</edgelabel>
+          <edgelabel>arribosEmergencia</edgelabel>
+          <edgelabel>estancias</edgelabel>
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" line="6" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/PacienteEmergencia.java" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_paciente_emergencia_1a1e71030a4d66cf7c5ad79743c67bc17f" prot="private" virt="non-virtual"><scope>PacienteEmergencia</scope><name>id</name></member>
+      <member refid="class_paciente_emergencia_1a445b55bb8a640deb5a80ea142969efa7" prot="public" virt="non-virtual"><scope>PacienteEmergencia</scope><name>lifeCycle</name></member>
+      <member refid="class_paciente_emergencia_1aa794154e926dda04cf083d8b2b60737c" prot="private" virt="non-virtual"><scope>PacienteEmergencia</scope><name>myModel</name></member>
+      <member refid="class_paciente_emergencia_1a570fc186959f4d2b2038f1f27f8fe75f" prot="public" virt="non-virtual"><scope>PacienteEmergencia</scope><name>PacienteEmergencia</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

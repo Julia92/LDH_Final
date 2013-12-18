@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_pacientes" kind="class" prot="public">
+    <compoundname>Pacientes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ExternalEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pacientes_1a1c200cce1f467a26e75d066e4df7c03e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pacientes.cuantos</definition>
+        <argsstring></argsstring>
+        <name>cuantos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" line="8" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pacientes_1a3399e04e5e886d3930d508506d53161f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pacientes.cuantosEmergencia</definition>
+        <argsstring></argsstring>
+        <name>cuantosEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" line="9" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pacientes_1a2f08ee5c60134b53b77a5a33d33b4d01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pacientes.eventRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>eventRoutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" bodystart="12" bodyend="24"/>
+        <references refid="class_pacientes_1a1c200cce1f467a26e75d066e4df7c03e" compoundref="_pacientes_8java" startline="8">cuantos</references>
+        <references refid="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" compoundref="_modelo_hospital_8java" startline="13">ModeloHospital.arribos</references>
+        <references refid="class_pacientes_1a3399e04e5e886d3930d508506d53161f" compoundref="_pacientes_8java" startline="9">cuantosEmergencia</references>
+        <references refid="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" compoundref="_modelo_hospital_8java" startline="22">ModeloHospital.arribosEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pacientes_1a63905a5dad4d77793f74da04b755a76e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pacientes.Pacientes</definition>
+        <argsstring>(Model owner, boolean showInTrace)</argsstring>
+        <name>Pacientes</name>
+        <param>
+          <type>Model</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInTrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" line="26" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" bodystart="26" bodyend="29"/>
+        <references refid="class_pacientes_1a1c200cce1f467a26e75d066e4df7c03e" compoundref="_pacientes_8java" startline="8">cuantos</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="72">
+        <label>Pacientes</label>
+        <link refid="class_pacientes"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>ExternalEvent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>Pacientes</label>
+        <link refid="class_pacientes"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>ExternalEvent</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" line="6" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/Pacientes.java" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_pacientes_1a1c200cce1f467a26e75d066e4df7c03e" prot="private" virt="non-virtual"><scope>Pacientes</scope><name>cuantos</name></member>
+      <member refid="class_pacientes_1a3399e04e5e886d3930d508506d53161f" prot="private" virt="non-virtual"><scope>Pacientes</scope><name>cuantosEmergencia</name></member>
+      <member refid="class_pacientes_1a2f08ee5c60134b53b77a5a33d33b4d01" prot="public" virt="non-virtual"><scope>Pacientes</scope><name>eventRoutine</name></member>
+      <member refid="class_pacientes_1a63905a5dad4d77793f74da04b755a76e" prot="public" virt="non-virtual"><scope>Pacientes</scope><name>Pacientes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

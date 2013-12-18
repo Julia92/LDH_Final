@@ -1,0 +1,916 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_modelo_hospital" kind="class" prot="public">
+    <compoundname>ModeloHospital</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_modelo_hospital_1ad0cbe7f57f1733551b2bb33e1a90499a" prot="public" static="no" mutable="no">
+        <type>ProcessQueue</type>
+        <definition>ProcessQueue ModeloHospital.pacientesEsperando</definition>
+        <argsstring></argsstring>
+        <name>pacientesEsperando</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="9" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" prot="public" static="no" mutable="no">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.arribos</definition>
+        <argsstring></argsstring>
+        <name>arribos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="13" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1ac2594297170d65562215179eae38e2a1" prot="public" static="no" mutable="no">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.estancias</definition>
+        <argsstring></argsstring>
+        <name>estancias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="14" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" prot="public" static="no" mutable="no">
+        <type>ProcessQueue</type>
+        <definition>ProcessQueue ModeloHospital.pacientesEmergencia</definition>
+        <argsstring></argsstring>
+        <name>pacientesEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="18" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" prot="public" static="no" mutable="no">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.arribosEmergencia</definition>
+        <argsstring></argsstring>
+        <name>arribosEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="22" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" prot="public" static="no" mutable="no">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.estanciaEmergencia</definition>
+        <argsstring></argsstring>
+        <name>estanciaEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="23" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_modelo_hospital_1a7976b96ea2a7a95f28b9ae175201b54d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModeloHospital.cantidadCamas</definition>
+        <argsstring></argsstring>
+        <name>cantidadCamas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="10" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a01a673aabc00aff4fa4efecf10e1c628" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ModeloHospital.mediaLlegadas</definition>
+        <argsstring></argsstring>
+        <name>mediaLlegadas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="11" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a10dea35940463cb2f7b34e333ac799b9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ModeloHospital.mediaEstancia</definition>
+        <argsstring></argsstring>
+        <name>mediaEstancia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModeloHospital.camas</definition>
+        <argsstring></argsstring>
+        <name>camas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="15" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a399104f28dff59862c839e754af5858b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModeloHospital.cantidadCamasEmergencia</definition>
+        <argsstring></argsstring>
+        <name>cantidadCamasEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="19" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a8c82045a833cf70bce0e81b87e77d91a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ModeloHospital.mediaLlegadasEmergencia</definition>
+        <argsstring></argsstring>
+        <name>mediaLlegadasEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="20" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1a251f7d9ddab04b2fb1e9ff101b3a3354" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ModeloHospital.mediaEstanciaEmergencia</definition>
+        <argsstring></argsstring>
+        <name>mediaEstanciaEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="21" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModeloHospital.camasEmergencia</definition>
+        <argsstring></argsstring>
+        <name>camasEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="24" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_modelo_hospital_1a561bc154e141c4dd9967b37968dfa296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ModeloHospital.ModeloHospital</definition>
+        <argsstring>(Model owner, double mediaLlegadas[], double mediaEstancia[], int cantidadCamas[], boolean showInReport, boolean showInTrace)</argsstring>
+        <name>ModeloHospital</name>
+        <param>
+          <type>Model</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mediaLlegadas</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mediaEstancia</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cantidadCamas</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInReport</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>showInTrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="26" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a4f87fdd61cdaff2ed5cbb85ea5fd6006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ModeloHospital.description</definition>
+        <argsstring>()</argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="39" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a3e65c59d620077e3c95993d89840fe69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.doInitialSchedules</definition>
+        <argsstring>()</argsstring>
+        <name>doInitialSchedules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="45" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a7312f74eaa1d274a0e9d5a7a0d620a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="52" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="52" bodyend="63"/>
+        <references refid="class_modelo_hospital_1ad0cbe7f57f1733551b2bb33e1a90499a" compoundref="_modelo_hospital_8java" startline="9">pacientesEsperando</references>
+        <references refid="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" compoundref="_modelo_hospital_8java" startline="13">arribos</references>
+        <references refid="class_modelo_hospital_1a01a673aabc00aff4fa4efecf10e1c628" compoundref="_modelo_hospital_8java" startline="11">mediaLlegadas</references>
+        <references refid="class_modelo_hospital_1ac2594297170d65562215179eae38e2a1" compoundref="_modelo_hospital_8java" startline="14">estancias</references>
+        <references refid="class_modelo_hospital_1a10dea35940463cb2f7b34e333ac799b9" compoundref="_modelo_hospital_8java" startline="12">mediaEstancia</references>
+        <references refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" compoundref="_modelo_hospital_8java" startline="15">camas</references>
+        <references refid="class_modelo_hospital_1a7976b96ea2a7a95f28b9ae175201b54d" compoundref="_modelo_hospital_8java" startline="10">cantidadCamas</references>
+        <references refid="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" compoundref="_modelo_hospital_8java" startline="18">pacientesEmergencia</references>
+        <references refid="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" compoundref="_modelo_hospital_8java" startline="22">arribosEmergencia</references>
+        <references refid="class_modelo_hospital_1a8c82045a833cf70bce0e81b87e77d91a" compoundref="_modelo_hospital_8java" startline="20">mediaLlegadasEmergencia</references>
+        <references refid="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" compoundref="_modelo_hospital_8java" startline="23">estanciaEmergencia</references>
+        <references refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" compoundref="_modelo_hospital_8java" startline="24">camasEmergencia</references>
+        <references refid="class_modelo_hospital_1a399104f28dff59862c839e754af5858b" compoundref="_modelo_hospital_8java" startline="19">cantidadCamasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a8dd16235e4f29badaf383670ee81fb36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ModeloHospital.hayCamasLibres</definition>
+        <argsstring>()</argsstring>
+        <name>hayCamasLibres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="65" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="65" bodyend="68"/>
+        <references refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" compoundref="_modelo_hospital_8java" startline="15">camas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1aea16e0db18328c1e2bf7ec947739e7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.tomarCama</definition>
+        <argsstring>()</argsstring>
+        <name>tomarCama</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="70" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="70" bodyend="73"/>
+        <references refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" compoundref="_modelo_hospital_8java" startline="15">camas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a8c0b523cdf04c197c6640fd950ae1e80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.liberarCama</definition>
+        <argsstring>()</argsstring>
+        <name>liberarCama</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="75" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="75" bodyend="78"/>
+        <references refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" compoundref="_modelo_hospital_8java" startline="15">camas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a4ffee61b106d2d4539ca274b222b16b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ModeloHospital.hayCamasLibresEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>hayCamasLibresEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="80" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="80" bodyend="83"/>
+        <references refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" compoundref="_modelo_hospital_8java" startline="24">camasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1aa0e95405391c5233eca6546b901d7a2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.tomarCamaEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>tomarCamaEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="85" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="85" bodyend="88"/>
+        <references refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" compoundref="_modelo_hospital_8java" startline="24">camasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a74d6a9a51049b037452f5e49eae2875a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.liberarCamaEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>liberarCamaEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="90" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="90" bodyend="93"/>
+        <references refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" compoundref="_modelo_hospital_8java" startline="24">camasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1ac97694528846204ccc5ee68534a0f65f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ProcessQueue</type>
+        <definition>ProcessQueue ModeloHospital.getPacientesEsperando</definition>
+        <argsstring>()</argsstring>
+        <name>getPacientesEsperando</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="95" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="95" bodyend="97"/>
+        <references refid="class_modelo_hospital_1ad0cbe7f57f1733551b2bb33e1a90499a" compoundref="_modelo_hospital_8java" startline="9">pacientesEsperando</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1abcd57bd92be67fde1e5ef25c3b3dabdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setPacientesEsperando</definition>
+        <argsstring>(ProcessQueue pacientesEsperando)</argsstring>
+        <name>setPacientesEsperando</name>
+        <param>
+          <type>ProcessQueue</type>
+          <declname>pacientesEsperando</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="99" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="99" bodyend="101"/>
+        <references refid="class_modelo_hospital_1ad0cbe7f57f1733551b2bb33e1a90499a" compoundref="_modelo_hospital_8java" startline="9">pacientesEsperando</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1aa7ad6fbccb39812fe5081161b78e257a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ModeloHospital.getCantidadCamas</definition>
+        <argsstring>()</argsstring>
+        <name>getCantidadCamas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="103" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="103" bodyend="105"/>
+        <references refid="class_modelo_hospital_1a7976b96ea2a7a95f28b9ae175201b54d" compoundref="_modelo_hospital_8java" startline="10">cantidadCamas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1ad211f5b9b2f0ee6ebd709c80aa23e669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setCantidadCamas</definition>
+        <argsstring>(int cantidadCamas)</argsstring>
+        <name>setCantidadCamas</name>
+        <param>
+          <type>int</type>
+          <declname>cantidadCamas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="107" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="107" bodyend="109"/>
+        <references refid="class_modelo_hospital_1a7976b96ea2a7a95f28b9ae175201b54d" compoundref="_modelo_hospital_8java" startline="10">cantidadCamas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a34ca65cd3ad714da1507f122611248a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ModeloHospital.getMediaLlegadas</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaLlegadas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="111" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="111" bodyend="113"/>
+        <references refid="class_modelo_hospital_1a01a673aabc00aff4fa4efecf10e1c628" compoundref="_modelo_hospital_8java" startline="11">mediaLlegadas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1acd298010a3718db2ad6b058d56dcb4d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setMediaLlegadas</definition>
+        <argsstring>(double mediaLlegadas)</argsstring>
+        <name>setMediaLlegadas</name>
+        <param>
+          <type>double</type>
+          <declname>mediaLlegadas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="115" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="115" bodyend="117"/>
+        <references refid="class_modelo_hospital_1a01a673aabc00aff4fa4efecf10e1c628" compoundref="_modelo_hospital_8java" startline="11">mediaLlegadas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1afd8faf7a57f7e48573f3dfe59e545f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ModeloHospital.getMediaEstancia</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaEstancia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="119" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="119" bodyend="121"/>
+        <references refid="class_modelo_hospital_1a10dea35940463cb2f7b34e333ac799b9" compoundref="_modelo_hospital_8java" startline="12">mediaEstancia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a013c12ed71bd90b9c2d791351a2c30bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setMediaEstancia</definition>
+        <argsstring>(double mediaEstancia)</argsstring>
+        <name>setMediaEstancia</name>
+        <param>
+          <type>double</type>
+          <declname>mediaEstancia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="123" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="123" bodyend="125"/>
+        <references refid="class_modelo_hospital_1a10dea35940463cb2f7b34e333ac799b9" compoundref="_modelo_hospital_8java" startline="12">mediaEstancia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a690c485f67b47bd5fd89b47e8d9009b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.getArribos</definition>
+        <argsstring>()</argsstring>
+        <name>getArribos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="127" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="127" bodyend="129"/>
+        <references refid="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" compoundref="_modelo_hospital_8java" startline="13">arribos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a098a0a42dd5f83aa727ca7bee606cada" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setArribos</definition>
+        <argsstring>(ContDistExponential arribos)</argsstring>
+        <name>setArribos</name>
+        <param>
+          <type>ContDistExponential</type>
+          <declname>arribos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="131" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="131" bodyend="133"/>
+        <references refid="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" compoundref="_modelo_hospital_8java" startline="13">arribos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a159d40ea87139a6f0797c998b4e66acf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.getEstancias</definition>
+        <argsstring>()</argsstring>
+        <name>getEstancias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="135" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="135" bodyend="137"/>
+        <references refid="class_modelo_hospital_1ac2594297170d65562215179eae38e2a1" compoundref="_modelo_hospital_8java" startline="14">estancias</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a162688bbf6cc7d6099777d24200094fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setEstancias</definition>
+        <argsstring>(ContDistExponential estancias)</argsstring>
+        <name>setEstancias</name>
+        <param>
+          <type>ContDistExponential</type>
+          <declname>estancias</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="139" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="139" bodyend="141"/>
+        <references refid="class_modelo_hospital_1ac2594297170d65562215179eae38e2a1" compoundref="_modelo_hospital_8java" startline="14">estancias</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a7257e8bb34b52f399a0e1e5c990cd6db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ModeloHospital.getCamas</definition>
+        <argsstring>()</argsstring>
+        <name>getCamas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="143" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="143" bodyend="145"/>
+        <references refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" compoundref="_modelo_hospital_8java" startline="15">camas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1acafb744c8543f81aa4a4f46c1dc4da68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setCamas</definition>
+        <argsstring>(int camas)</argsstring>
+        <name>setCamas</name>
+        <param>
+          <type>int</type>
+          <declname>camas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="147" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="147" bodyend="149"/>
+        <references refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" compoundref="_modelo_hospital_8java" startline="15">camas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a8e741a498c41cf7ab3c4edb3771df4c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ProcessQueue</type>
+        <definition>ProcessQueue ModeloHospital.getPacientesEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getPacientesEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="151" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="151" bodyend="153"/>
+        <references refid="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" compoundref="_modelo_hospital_8java" startline="18">pacientesEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a0089a647fb2d79610b9b577e60ec2c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setPacientesEmergencia</definition>
+        <argsstring>(ProcessQueue pacientesEmergencia)</argsstring>
+        <name>setPacientesEmergencia</name>
+        <param>
+          <type>ProcessQueue</type>
+          <declname>pacientesEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="155" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="155" bodyend="157"/>
+        <references refid="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" compoundref="_modelo_hospital_8java" startline="18">pacientesEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a32ad20b8cd00111e971a2e1fbd5e2846" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ModeloHospital.getCantidadCamasEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getCantidadCamasEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="159" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="159" bodyend="161"/>
+        <references refid="class_modelo_hospital_1a399104f28dff59862c839e754af5858b" compoundref="_modelo_hospital_8java" startline="19">cantidadCamasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1ac5b372c3755661cb94d1697a272b6923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setCantidadCamasEmergencia</definition>
+        <argsstring>(int cantidadCamasEmergencia)</argsstring>
+        <name>setCantidadCamasEmergencia</name>
+        <param>
+          <type>int</type>
+          <declname>cantidadCamasEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="163" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="163" bodyend="165"/>
+        <references refid="class_modelo_hospital_1a399104f28dff59862c839e754af5858b" compoundref="_modelo_hospital_8java" startline="19">cantidadCamasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a9c481c295b65b1f77afa1fe06b1b05ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ModeloHospital.getMediaLlegadasEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaLlegadasEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="167" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="167" bodyend="169"/>
+        <references refid="class_modelo_hospital_1a8c82045a833cf70bce0e81b87e77d91a" compoundref="_modelo_hospital_8java" startline="20">mediaLlegadasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a8a9a80239c2d8b13c89e7202b8eb38f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setMediaLlegadasEmergencia</definition>
+        <argsstring>(double mediaLlegadasEmergencia)</argsstring>
+        <name>setMediaLlegadasEmergencia</name>
+        <param>
+          <type>double</type>
+          <declname>mediaLlegadasEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="171" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="171" bodyend="173"/>
+        <references refid="class_modelo_hospital_1a8c82045a833cf70bce0e81b87e77d91a" compoundref="_modelo_hospital_8java" startline="20">mediaLlegadasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a6499bb304800ae18bec2f6dd62ba6ac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ModeloHospital.getMediaEstanciaEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaEstanciaEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="175" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="175" bodyend="177"/>
+        <references refid="class_modelo_hospital_1a251f7d9ddab04b2fb1e9ff101b3a3354" compoundref="_modelo_hospital_8java" startline="21">mediaEstanciaEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a52dd26c1ab4bc8afd883c8f9617436f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setMediaEstanciaEmergencia</definition>
+        <argsstring>(double mediaEstanciaEmergencia)</argsstring>
+        <name>setMediaEstanciaEmergencia</name>
+        <param>
+          <type>double</type>
+          <declname>mediaEstanciaEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="179" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="179" bodyend="181"/>
+        <references refid="class_modelo_hospital_1a251f7d9ddab04b2fb1e9ff101b3a3354" compoundref="_modelo_hospital_8java" startline="21">mediaEstanciaEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1aedeec1aa6b0808defec18d2896322222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.getArribosEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getArribosEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="183" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="183" bodyend="185"/>
+        <references refid="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" compoundref="_modelo_hospital_8java" startline="22">arribosEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a72adc5c0b478eb8ed58002a005d7f49f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setArribosEmergencia</definition>
+        <argsstring>(ContDistExponential arribosEmergencia)</argsstring>
+        <name>setArribosEmergencia</name>
+        <param>
+          <type>ContDistExponential</type>
+          <declname>arribosEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="187" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="187" bodyend="189"/>
+        <references refid="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" compoundref="_modelo_hospital_8java" startline="22">arribosEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a89f98296bc582af6df104c4e32a3b573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ContDistExponential</type>
+        <definition>ContDistExponential ModeloHospital.getEstanciaEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getEstanciaEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="191" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="191" bodyend="193"/>
+        <references refid="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" compoundref="_modelo_hospital_8java" startline="23">estanciaEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a8ba5a635a30938fba92f3594f081c38c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setEstanciaEmergencia</definition>
+        <argsstring>(ContDistExponential estanciaEmergencia)</argsstring>
+        <name>setEstanciaEmergencia</name>
+        <param>
+          <type>ContDistExponential</type>
+          <declname>estanciaEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="195" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="195" bodyend="197"/>
+        <references refid="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" compoundref="_modelo_hospital_8java" startline="23">estanciaEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a9edf287fe12a81a36d15685d0d18382e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ModeloHospital.getCamasEmergencia</definition>
+        <argsstring>()</argsstring>
+        <name>getCamasEmergencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="199" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="199" bodyend="201"/>
+        <references refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" compoundref="_modelo_hospital_8java" startline="24">camasEmergencia</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modelo_hospital_1a0f817fd9a6d476436bc2dd2b960885b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModeloHospital.setCamasEmergencia</definition>
+        <argsstring>(int camasEmergencia)</argsstring>
+        <name>setCamasEmergencia</name>
+        <param>
+          <type>int</type>
+          <declname>camasEmergencia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="203" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="203" bodyend="205"/>
+        <references refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" compoundref="_modelo_hospital_8java" startline="24">camasEmergencia</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>ModeloHospital</label>
+        <link refid="class_modelo_hospital"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="54">
+        <label>ProcessQueue</label>
+      </node>
+      <node id="55">
+        <label>ContDistExponential</label>
+      </node>
+      <node id="52">
+        <label>ModeloHospital</label>
+        <link refid="class_modelo_hospital"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>pacientesEsperando</edgelabel>
+          <edgelabel>pacientesEmergencia</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>arribos</edgelabel>
+          <edgelabel>estanciaEmergencia</edgelabel>
+          <edgelabel>arribosEmergencia</edgelabel>
+          <edgelabel>estancias</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" line="6" column="1" bodyfile="C:/Users/JulyaMaria/git/LDH_Final/LDH_Final/src/ModeloHospital.java" bodystart="6" bodyend="206"/>
+    <listofallmembers>
+      <member refid="class_modelo_hospital_1aa376037c68b7415b56f0f677d74c16dd" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>arribos</name></member>
+      <member refid="class_modelo_hospital_1aa508c4132ba981b9520f843dc24561e4" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>arribosEmergencia</name></member>
+      <member refid="class_modelo_hospital_1abe9d4c46824ac9a664db21b4d2482f5b" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>camas</name></member>
+      <member refid="class_modelo_hospital_1ad9062f6156719fa8052f4cafe877f8b0" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>camasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a7976b96ea2a7a95f28b9ae175201b54d" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>cantidadCamas</name></member>
+      <member refid="class_modelo_hospital_1a399104f28dff59862c839e754af5858b" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>cantidadCamasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a4f87fdd61cdaff2ed5cbb85ea5fd6006" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>description</name></member>
+      <member refid="class_modelo_hospital_1a3e65c59d620077e3c95993d89840fe69" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>doInitialSchedules</name></member>
+      <member refid="class_modelo_hospital_1a6c710d90f7333974d066f761b23688c1" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>estanciaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1ac2594297170d65562215179eae38e2a1" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>estancias</name></member>
+      <member refid="class_modelo_hospital_1a690c485f67b47bd5fd89b47e8d9009b4" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getArribos</name></member>
+      <member refid="class_modelo_hospital_1aedeec1aa6b0808defec18d2896322222" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getArribosEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a7257e8bb34b52f399a0e1e5c990cd6db" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getCamas</name></member>
+      <member refid="class_modelo_hospital_1a9edf287fe12a81a36d15685d0d18382e" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getCamasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1aa7ad6fbccb39812fe5081161b78e257a" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getCantidadCamas</name></member>
+      <member refid="class_modelo_hospital_1a32ad20b8cd00111e971a2e1fbd5e2846" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getCantidadCamasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a89f98296bc582af6df104c4e32a3b573" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getEstanciaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a159d40ea87139a6f0797c998b4e66acf" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getEstancias</name></member>
+      <member refid="class_modelo_hospital_1afd8faf7a57f7e48573f3dfe59e545f58" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getMediaEstancia</name></member>
+      <member refid="class_modelo_hospital_1a6499bb304800ae18bec2f6dd62ba6ac3" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getMediaEstanciaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a34ca65cd3ad714da1507f122611248a1" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getMediaLlegadas</name></member>
+      <member refid="class_modelo_hospital_1a9c481c295b65b1f77afa1fe06b1b05ad" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getMediaLlegadasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a8e741a498c41cf7ab3c4edb3771df4c2" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getPacientesEmergencia</name></member>
+      <member refid="class_modelo_hospital_1ac97694528846204ccc5ee68534a0f65f" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>getPacientesEsperando</name></member>
+      <member refid="class_modelo_hospital_1a8dd16235e4f29badaf383670ee81fb36" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>hayCamasLibres</name></member>
+      <member refid="class_modelo_hospital_1a4ffee61b106d2d4539ca274b222b16b9" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>hayCamasLibresEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a7312f74eaa1d274a0e9d5a7a0d620a77" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>init</name></member>
+      <member refid="class_modelo_hospital_1a8c0b523cdf04c197c6640fd950ae1e80" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>liberarCama</name></member>
+      <member refid="class_modelo_hospital_1a74d6a9a51049b037452f5e49eae2875a" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>liberarCamaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a10dea35940463cb2f7b34e333ac799b9" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>mediaEstancia</name></member>
+      <member refid="class_modelo_hospital_1a251f7d9ddab04b2fb1e9ff101b3a3354" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>mediaEstanciaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a01a673aabc00aff4fa4efecf10e1c628" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>mediaLlegadas</name></member>
+      <member refid="class_modelo_hospital_1a8c82045a833cf70bce0e81b87e77d91a" prot="private" virt="non-virtual"><scope>ModeloHospital</scope><name>mediaLlegadasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a561bc154e141c4dd9967b37968dfa296" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>ModeloHospital</name></member>
+      <member refid="class_modelo_hospital_1a6a2e3dd496eac896ac92232d283db1be" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>pacientesEmergencia</name></member>
+      <member refid="class_modelo_hospital_1ad0cbe7f57f1733551b2bb33e1a90499a" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>pacientesEsperando</name></member>
+      <member refid="class_modelo_hospital_1a098a0a42dd5f83aa727ca7bee606cada" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setArribos</name></member>
+      <member refid="class_modelo_hospital_1a72adc5c0b478eb8ed58002a005d7f49f" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setArribosEmergencia</name></member>
+      <member refid="class_modelo_hospital_1acafb744c8543f81aa4a4f46c1dc4da68" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setCamas</name></member>
+      <member refid="class_modelo_hospital_1a0f817fd9a6d476436bc2dd2b960885b0" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setCamasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1ad211f5b9b2f0ee6ebd709c80aa23e669" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setCantidadCamas</name></member>
+      <member refid="class_modelo_hospital_1ac5b372c3755661cb94d1697a272b6923" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setCantidadCamasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a8ba5a635a30938fba92f3594f081c38c" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setEstanciaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a162688bbf6cc7d6099777d24200094fb" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setEstancias</name></member>
+      <member refid="class_modelo_hospital_1a013c12ed71bd90b9c2d791351a2c30bf" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setMediaEstancia</name></member>
+      <member refid="class_modelo_hospital_1a52dd26c1ab4bc8afd883c8f9617436f9" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setMediaEstanciaEmergencia</name></member>
+      <member refid="class_modelo_hospital_1acd298010a3718db2ad6b058d56dcb4d6" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setMediaLlegadas</name></member>
+      <member refid="class_modelo_hospital_1a8a9a80239c2d8b13c89e7202b8eb38f9" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setMediaLlegadasEmergencia</name></member>
+      <member refid="class_modelo_hospital_1a0089a647fb2d79610b9b577e60ec2c5c" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setPacientesEmergencia</name></member>
+      <member refid="class_modelo_hospital_1abcd57bd92be67fde1e5ef25c3b3dabdf" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>setPacientesEsperando</name></member>
+      <member refid="class_modelo_hospital_1aea16e0db18328c1e2bf7ec947739e7c6" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>tomarCama</name></member>
+      <member refid="class_modelo_hospital_1aa0e95405391c5233eca6546b901d7a2a" prot="public" virt="non-virtual"><scope>ModeloHospital</scope><name>tomarCamaEmergencia</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

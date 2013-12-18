@@ -1,0 +1,179 @@
+\hypertarget{class_res_example}{\section{Res\-Example Class Reference}
+\label{class_res_example}\index{Res\-Example@{Res\-Example}}
+}
+
+
+Inheritance diagram for Res\-Example\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{class_res_example__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Res\-Example\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_res_example__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_res_example_a2dcdaf535117c74d92c6fe97b255ec72}{Res\-Example} (Model owner, String name, boolean show\-In\-Report, boolean show\-Intrace)
+\item 
+String \hyperlink{class_res_example_a85e7862ebe831403f3da8773ba734b98}{description} ()
+\item 
+void \hyperlink{class_res_example_a3352131778a1ffb88f5fb1e300a1e0d5}{init} ()
+\item 
+void \hyperlink{class_res_example_a4855a0db355d1c1d96aa5f96ba303f37}{do\-Initial\-Schedules} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_res_example_a24f19749855594fbb1dd5e6363dfbd26}{main} (String args\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_res_example_a7fabf49b9a1e22badd86d3d910382792}{get\-Service\-Time} ()
+\item 
+double \hyperlink{class_res_example_aa3f32e8d8ddbc582e6a3b7c2f890d935}{get\-Ship\-Arrival\-Time} ()
+\item 
+long \hyperlink{class_res_example_a0dbd04a235f2ecb12d2cb1f424cfc589}{get\-Ship\-Size} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the model class. It is the main class of a simple process-\/oriented model of the quay of a container terminal using resources to represent berths. It focuses on the allocation of berths (docking space at a quay) to incoming container ships. There are eight equal-\/sized berths on the quay in question. Every time a ship arrives it tries to allocate one, two, or three of these berths depending on its size. If there is enough space available, the container ship docks and starts unloading its freight. Otherwise, it has to wait in a queue until other ships leave the port and free the occupied berths. \begin{DoxyAuthor}{Author}
+Olaf Neidhardt, Ruth Meyer 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_res_example_a2dcdaf535117c74d92c6fe97b255ec72}{\index{Res\-Example@{Res\-Example}!Res\-Example@{Res\-Example}}
+\index{Res\-Example@{Res\-Example}!ResExample@{Res\-Example}}
+\subsubsection[{Res\-Example}]{\setlength{\rightskip}{0pt plus 5cm}Res\-Example.\-Res\-Example (
+\begin{DoxyParamCaption}
+\item[{Model}]{owner, }
+\item[{String}]{name, }
+\item[{boolean}]{show\-In\-Report, }
+\item[{boolean}]{show\-Intrace}
+\end{DoxyParamCaption}
+)}}\label{class_res_example_a2dcdaf535117c74d92c6fe97b255ec72}
+\hyperlink{class_res_example}{Res\-Example} constructor.
+
+Creates a new \hyperlink{class_res_example}{Res\-Example} model via calling the constructor of the superclass.
+
+
+\begin{DoxyParams}{Parameters}
+{\em owner} & the model this model is part of (set to {\ttfamily null} when there is no such model) \\
+\hline
+{\em model\-Name} & this model's name \\
+\hline
+{\em show\-In\-Report} & flag to indicate if this model shall produce output to the report file \\
+\hline
+{\em show\-In\-Trace} & flag to indicate if this model shall produce output to the trace file \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_res_example_a85e7862ebe831403f3da8773ba734b98}{\index{Res\-Example@{Res\-Example}!description@{description}}
+\index{description@{description}!ResExample@{Res\-Example}}
+\subsubsection[{description}]{\setlength{\rightskip}{0pt plus 5cm}String Res\-Example.\-description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_res_example_a85e7862ebe831403f3da8773ba734b98}
+returns a description of the model to be used in the report. \begin{DoxyReturn}{Returns}
+model description as a string 
+\end{DoxyReturn}
+\hypertarget{class_res_example_a4855a0db355d1c1d96aa5f96ba303f37}{\index{Res\-Example@{Res\-Example}!do\-Initial\-Schedules@{do\-Initial\-Schedules}}
+\index{do\-Initial\-Schedules@{do\-Initial\-Schedules}!ResExample@{Res\-Example}}
+\subsubsection[{do\-Initial\-Schedules}]{\setlength{\rightskip}{0pt plus 5cm}void Res\-Example.\-do\-Initial\-Schedules (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_res_example_a4855a0db355d1c1d96aa5f96ba303f37}
+activates dynamic model components (simulation processes).
+
+This method is used to place all events or processes on the internal event list of the simulator which are necessary to start the simulation.
+
+In this case, only the ship generator has to be created and activated. 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_res_example_a4855a0db355d1c1d96aa5f96ba303f37_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_res_example_a7fabf49b9a1e22badd86d3d910382792}{\index{Res\-Example@{Res\-Example}!get\-Service\-Time@{get\-Service\-Time}}
+\index{get\-Service\-Time@{get\-Service\-Time}!ResExample@{Res\-Example}}
+\subsubsection[{get\-Service\-Time}]{\setlength{\rightskip}{0pt plus 5cm}double Res\-Example.\-get\-Service\-Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_res_example_a7fabf49b9a1e22badd86d3d910382792}
+Returns a time span for the service time of a ship Stream is set to N\-O\-N\-N\-E\-G\-A\-T\-I\-V\-E=T\-R\-U\-E \begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\hypertarget{class_res_example_aa3f32e8d8ddbc582e6a3b7c2f890d935}{\index{Res\-Example@{Res\-Example}!get\-Ship\-Arrival\-Time@{get\-Ship\-Arrival\-Time}}
+\index{get\-Ship\-Arrival\-Time@{get\-Ship\-Arrival\-Time}!ResExample@{Res\-Example}}
+\subsubsection[{get\-Ship\-Arrival\-Time}]{\setlength{\rightskip}{0pt plus 5cm}double Res\-Example.\-get\-Ship\-Arrival\-Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_res_example_aa3f32e8d8ddbc582e6a3b7c2f890d935}
+Returns a time span for the next interarrival time of a ship Stream is set to N\-O\-N\-N\-E\-G\-A\-T\-I\-V\-E=T\-R\-U\-E \begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\hypertarget{class_res_example_a0dbd04a235f2ecb12d2cb1f424cfc589}{\index{Res\-Example@{Res\-Example}!get\-Ship\-Size@{get\-Ship\-Size}}
+\index{get\-Ship\-Size@{get\-Ship\-Size}!ResExample@{Res\-Example}}
+\subsubsection[{get\-Ship\-Size}]{\setlength{\rightskip}{0pt plus 5cm}long Res\-Example.\-get\-Ship\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_res_example_a0dbd04a235f2ecb12d2cb1f424cfc589}
+Returns the size of a ship in number of berths needed \begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\hypertarget{class_res_example_a3352131778a1ffb88f5fb1e300a1e0d5}{\index{Res\-Example@{Res\-Example}!init@{init}}
+\index{init@{init}!ResExample@{Res\-Example}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Res\-Example.\-init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_res_example_a3352131778a1ffb88f5fb1e300a1e0d5}
+initialises static model components like distributions and queues. \hypertarget{class_res_example_a24f19749855594fbb1dd5e6363dfbd26}{\index{Res\-Example@{Res\-Example}!main@{main}}
+\index{main@{main}!ResExample@{Res\-Example}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void Res\-Example.\-main (
+\begin{DoxyParamCaption}
+\item[{String}]{args\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_res_example_a24f19749855594fbb1dd5e6363dfbd26}
+run the model 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_res_example_a24f19749855594fbb1dd5e6363dfbd26_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Simulador\-Barco/src/\hyperlink{_res_example_8java}{Res\-Example.\-java}\end{DoxyCompactItemize}
